@@ -121,3 +121,39 @@ print("Event records:", len(events))
 print("Patient summary records:", len(summary))
 print("Event columns:", len(events.columns))
 print("Summary columns:", len(summary.columns))
+
+
+import json
+
+report_dir = Path("reports")
+report_dir.mkdir(parents=True, exist_ok=True)
+
+events = pd.read_csv("data/processed/careflow_patient_events_clean.csv")
+summary = pd.read_csv("data/processed/careflow_patient_summary_clean.csv")
+
+# Generate report
+report = {
+    "patient_events": {
+        "rows": len(events),
+        "columns": len(events.columns),
+        "column_names": events.columns.tolist(),
+        "missing_values": events.isnull().sum().to_dict(),
+        "duplicate_rows": int(events.duplicated().sum()),
+        "duplicate_event_ids": int(events["event_id"].duplicated().sum()),
+    },
+    "patient_summary": {
+        "rows": len(summary),
+        "columns": len(summary.columns),
+        "column_names": summary.columns.tolist(),
+        "missing_values": summary.isnull().sum().to_dict(),
+        "duplicate_rows": int(summary.duplicated().sum()),
+        "duplicate_patient_ids": int(summary["patient_id"].duplicated().sum()),
+    },
+}
+
+# Save report
+with open(report_dir / "data_quality_report.json", "w") as file:
+    json.dump(report, file, indent=4)
+
+print("\nData quality report generated successfully!")
+print("Location: reports/data_quality_report.json")
