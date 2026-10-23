@@ -1,0 +1,19 @@
+CareFlow – Process Discovery Summary
+
+1. Dataset
+- Total patient cases: 300
+- Total events: 2,562
+- Unique activities: 8
+
+2. Process Discovery
+- Process discovery was performed using PM4Py.
+- An inductive process tree was discovered.
+- The process model was converted into a Petri net.
+- The process map was saved as reports/careflow_process_map.png.
+
+3. Model Validation
+- Token-based replay fitness: 100%
+- Average trace fitness: 1.0
+- Log fitness: 1.0
+
+Note: The model was discovered and evaluated using the same dataset. Therefore, these results show how well it fits the existing data, not whether the pathway is clinically realistic.
