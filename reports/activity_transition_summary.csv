@@ -1,0 +1,11 @@
+concept:name,next_activity,transition_count
+Diagnostic Test,Clinical Review,350
+Clinical Review,Treatment,300
+Treatment,Discharge Planning,300
+Registration,Triage,300
+Discharge Planning,Discharge,300
+Initial Assessment,Diagnostic Test,300
+Triage,Initial Assessment,300
+Clinical Review,Diagnostic Test,50
+Clinical Review,Initial Assessment,31
+Initial Assessment,Clinical Review,31
