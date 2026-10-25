@@ -1,0 +1,15 @@
+
+target/
+dbt_packages/
+.env
+
+.venv/
+
+careflow_dbt/target/
+careflow_dbt/logs/
+logs/
+
+__pycache__/
+*.pyc
+
+/logs/
