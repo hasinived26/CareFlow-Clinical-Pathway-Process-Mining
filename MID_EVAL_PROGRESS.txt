@@ -1,0 +1,37 @@
+CAREFLOW — MID-EVALUATION PROGRESS
+
+1. DATA PREPROCESSING AND VALIDATION
+- Cleaned and validated the synthetic patient event dataset.
+- Checked missing values, duplicate IDs, timestamps, event order, and duration values.
+- Verified consistency between patient events and patient summaries.
+- Saved data quality and validation reports.
+
+2. BIGQUERY SETUP
+- Created the BigQuery project and careflow_dataset.
+- Uploaded the processed event data into patient_events_raw.
+- Created patient_events_clean.
+- Verified 2,562 events, 300 patients, unique event IDs, and chronological order.
+
+3. DBT SETUP AND TESTING
+- Connected dbt to BigQuery.
+- Created the patient_events_clean dbt model.
+- Added data-quality tests for missing case IDs, missing event IDs, and duplicate event IDs.
+- All three tests passed.
+
+4. PROCESS MINING USING PM4PY
+- Prepared the event log for process mining.
+- Discovered patient pathways and generated a process map.
+- Validated the discovered model using token-based replay.
+- Achieved 100% replay fitness on the same event log used for discovery.
+
+5. REPORTS AND VERSION CONTROL
+- Generated data quality, patient journey, summary consistency, and activity transition reports.
+- Saved the process map and process discovery summary.
+- Committed and pushed the dbt project and related work to the GitHub branch hasini-data-preprocessing.
+
+NEXT PHASE
+- Week 3: Bottleneck analysis and waiting-time KPIs.
+- Prepare data for the Power BI dashboard.
+
+NOTE
+The 100% replay fitness result measures how well the discovered model fits the event log used for discovery. It does not independently establish clinical realism.
