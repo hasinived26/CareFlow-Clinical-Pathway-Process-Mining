@@ -1,0 +1,9 @@
+activity,event_count,average_waiting_time,median_waiting_time,p90_waiting_time,total_waiting_time,average_activity_duration
+Treatment,300,55.61,44.5,121,16682,35.67
+Diagnostic Test,350,45.05,34.5,91,15767,24.09
+Clinical Review,381,37.03,26,79,14107,13.95
+Initial Assessment,331,28.85,23,56,9549,17.63
+Discharge Planning,300,23.02,19,49.1,6907,12.3
+Discharge,300,18.52,15,37.1,5556,7.8
+Triage,300,11.68,9,24,3504,7.23
+Registration,300,0,0,0,0,5.63
