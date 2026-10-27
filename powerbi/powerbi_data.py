@@ -1,16 +1,22 @@
 import pandas as pd
+from pathlib import Path
 
-df = pd.read_csv('careflow_patient_events.csv')
+# This finds the folder where this script is, then goes up one level to the root folder
+script_dir = Path(__file__).parent.resolve()
+root_dir = script_dir.parent
+input_path = root_dir / "data" / "processed" / "careflow_patient_events_clean.csv"
+
+df = pd.read_csv(input_path)
 df['event_timestamp'] = pd.to_datetime(df['event_timestamp'])
 
-# Sort 
+# Sort chronologically by patient and event order
 df = df.sort_values(by=['case_id', 'event_order']).reset_index(drop=True)
 
 df['from_activity'] = df.groupby('case_id')['activity'].shift(1).fillna('Start')
 
-# Transition Bottleneck 
+# Transition Bottleneck
 transitions_df = df[['case_id', 'from_activity', 'activity', 'waiting_time_minutes', 
-                     'triage_level', 'case_complexity', 'pathway_type']].copy()
+                        'triage_level', 'case_complexity', 'pathway_type']].copy()
 
 transitions_df.rename(columns={
     'activity': 'to_activity',
@@ -18,7 +24,8 @@ transitions_df.rename(columns={
 }, inplace=True)
 
 transitions_df = transitions_df[transitions_df['from_activity'] != 'Start'].copy()
-transitions_df.to_csv('powerbi_transition_bottlenecks.csv', index=False)
+    
+transitions_df.to_csv(script_dir / 'powerbi_transition_bottlenecks.csv', index=False)
 
 # Patient KPIs
 patient_kpis = df.groupby('case_id').agg(
@@ -35,18 +42,19 @@ patient_kpis = df.groupby('case_id').agg(
 # Total Length of Stay in minutes
 patient_kpis['total_los_minutes'] = (patient_kpis['end_time'] - patient_kpis['start_time']).dt.total_seconds() / 60
 patient_kpis = patient_kpis.drop(columns=['start_time', 'end_time'])
-patient_kpis.to_csv('powerbi_patient_kpis.csv', index=False)
+patient_kpis.to_csv(script_dir / 'powerbi_patient_kpis.csv', index=False)
 
-# Slow departments
+# Activity Performance
 activity_perf = df.groupby('activity').agg(
     avg_waiting_time=('waiting_time_minutes', 'mean'),
     avg_activity_duration=('activity_duration_minutes', 'mean'),
     total_occurrences=('event_id', 'count')
 ).reset_index()
 
-activity_perf.to_csv('powerbi_activity_performance.csv', index=False)
+activity_perf.to_csv(script_dir / 'powerbi_activity_performance.csv', index=False)
 
-print(" Success! 3 Power BI tables generated:")
-print("1. powerbi_transition_bottlenecks.csv")
-print("2. powerbi_patient_kpis.csv")
-print("3. powerbi_activity_performance.csv")
+print("Success! 3 Power BI tables generated in the 'powerbi' folder:")
+print("powerbi_transition_bottlenecks.csv")
+print("powerbi_patient_kpis.csv")
+print("powerbi_activity_performance.csv")
+print("\nNext Step: Open Power BI Desktop and import these 3 CSV files from the 'powerbi' folder.")

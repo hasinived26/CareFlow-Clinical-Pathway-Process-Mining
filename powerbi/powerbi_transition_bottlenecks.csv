@@ -1,0 +1,2263 @@
+case_id,from_activity,to_activity,transition_time_minutes,triage_level,case_complexity,pathway_type
+PT0001,Registration,Triage,9,Low,Low,Normal
+PT0001,Triage,Initial Assessment,36,Low,Low,Normal
+PT0001,Initial Assessment,Diagnostic Test,42,Low,Low,Normal
+PT0001,Diagnostic Test,Clinical Review,45,Low,Low,Normal
+PT0001,Clinical Review,Treatment,80,Low,Low,Normal
+PT0001,Treatment,Discharge Planning,25,Low,Low,Normal
+PT0001,Discharge Planning,Discharge,8,Low,Low,Normal
+PT0002,Registration,Triage,11,Medium,Low,Loop-back
+PT0002,Triage,Initial Assessment,20,Medium,Low,Loop-back
+PT0002,Initial Assessment,Diagnostic Test,28,Medium,Low,Loop-back
+PT0002,Diagnostic Test,Clinical Review,17,Medium,Low,Loop-back
+PT0002,Clinical Review,Diagnostic Test,67,Medium,Low,Loop-back
+PT0002,Diagnostic Test,Clinical Review,17,Medium,Low,Loop-back
+PT0002,Clinical Review,Treatment,54,Medium,Low,Loop-back
+PT0002,Treatment,Discharge Planning,13,Medium,Low,Loop-back
+PT0002,Discharge Planning,Discharge,16,Medium,Low,Loop-back
+PT0003,Registration,Triage,10,Low,High,Normal
+PT0003,Triage,Initial Assessment,55,Low,High,Normal
+PT0003,Initial Assessment,Diagnostic Test,81,Low,High,Normal
+PT0003,Diagnostic Test,Clinical Review,46,Low,High,Normal
+PT0003,Clinical Review,Treatment,30,Low,High,Normal
+PT0003,Treatment,Discharge Planning,77,Low,High,Normal
+PT0003,Discharge Planning,Discharge,21,Low,High,Normal
+PT0004,Registration,Triage,11,High,High,Loop-back
+PT0004,Triage,Initial Assessment,66,High,High,Loop-back
+PT0004,Initial Assessment,Diagnostic Test,43,High,High,Loop-back
+PT0004,Diagnostic Test,Clinical Review,77,High,High,Loop-back
+PT0004,Clinical Review,Diagnostic Test,27,High,High,Loop-back
+PT0004,Diagnostic Test,Clinical Review,8,High,High,Loop-back
+PT0004,Clinical Review,Treatment,145,High,High,Loop-back
+PT0004,Treatment,Discharge Planning,2,High,High,Loop-back
+PT0004,Discharge Planning,Discharge,9,High,High,Loop-back
+PT0005,Registration,Triage,20,Low,High,Loop-back
+PT0005,Triage,Initial Assessment,26,Low,High,Loop-back
+PT0005,Initial Assessment,Diagnostic Test,208,Low,High,Loop-back
+PT0005,Diagnostic Test,Clinical Review,91,Low,High,Loop-back
+PT0005,Clinical Review,Diagnostic Test,35,Low,High,Loop-back
+PT0005,Diagnostic Test,Clinical Review,16,Low,High,Loop-back
+PT0005,Clinical Review,Treatment,64,Low,High,Loop-back
+PT0005,Treatment,Discharge Planning,24,Low,High,Loop-back
+PT0005,Discharge Planning,Discharge,29,Low,High,Loop-back
+PT0006,Registration,Triage,3,Low,Low,Normal
+PT0006,Triage,Initial Assessment,20,Low,Low,Normal
+PT0006,Initial Assessment,Diagnostic Test,32,Low,Low,Normal
+PT0006,Diagnostic Test,Clinical Review,12,Low,Low,Normal
+PT0006,Clinical Review,Treatment,67,Low,Low,Normal
+PT0006,Treatment,Discharge Planning,24,Low,Low,Normal
+PT0006,Discharge Planning,Discharge,19,Low,Low,Normal
+PT0007,Registration,Triage,10,Low,Low,Loop-back
+PT0007,Triage,Initial Assessment,16,Low,Low,Loop-back
+PT0007,Initial Assessment,Diagnostic Test,66,Low,Low,Loop-back
+PT0007,Diagnostic Test,Clinical Review,22,Low,Low,Loop-back
+PT0007,Clinical Review,Diagnostic Test,63,Low,Low,Loop-back
+PT0007,Diagnostic Test,Clinical Review,89,Low,Low,Loop-back
+PT0007,Clinical Review,Treatment,182,Low,Low,Loop-back
+PT0007,Treatment,Discharge Planning,50,Low,Low,Loop-back
+PT0007,Discharge Planning,Discharge,17,Low,Low,Loop-back
+PT0008,Registration,Triage,10,High,Low,Loop-back
+PT0008,Triage,Initial Assessment,12,High,Low,Loop-back
+PT0008,Initial Assessment,Diagnostic Test,92,High,Low,Loop-back
+PT0008,Diagnostic Test,Clinical Review,8,High,Low,Loop-back
+PT0008,Clinical Review,Diagnostic Test,41,High,Low,Loop-back
+PT0008,Diagnostic Test,Clinical Review,29,High,Low,Loop-back
+PT0008,Clinical Review,Treatment,27,High,Low,Loop-back
+PT0008,Treatment,Discharge Planning,9,High,Low,Loop-back
+PT0008,Discharge Planning,Discharge,6,High,Low,Loop-back
+PT0009,Registration,Triage,30,Low,High,Normal
+PT0009,Triage,Initial Assessment,30,Low,High,Normal
+PT0009,Initial Assessment,Diagnostic Test,126,Low,High,Normal
+PT0009,Diagnostic Test,Clinical Review,86,Low,High,Normal
+PT0009,Clinical Review,Treatment,135,Low,High,Normal
+PT0009,Treatment,Discharge Planning,35,Low,High,Normal
+PT0009,Discharge Planning,Discharge,41,Low,High,Normal
+PT0010,Registration,Triage,4,High,High,Normal
+PT0010,Triage,Initial Assessment,30,High,High,Normal
+PT0010,Initial Assessment,Diagnostic Test,46,High,High,Normal
+PT0010,Diagnostic Test,Clinical Review,46,High,High,Normal
+PT0010,Clinical Review,Treatment,77,High,High,Normal
+PT0010,Treatment,Discharge Planning,25,High,High,Normal
+PT0010,Discharge Planning,Discharge,14,High,High,Normal
+PT0011,Registration,Triage,5,Low,Medium,Normal
+PT0011,Triage,Initial Assessment,63,Low,Medium,Normal
+PT0011,Initial Assessment,Diagnostic Test,157,Low,Medium,Normal
+PT0011,Diagnostic Test,Clinical Review,23,Low,Medium,Normal
+PT0011,Clinical Review,Treatment,16,Low,Medium,Normal
+PT0011,Treatment,Discharge Planning,33,Low,Medium,Normal
+PT0011,Discharge Planning,Discharge,24,Low,Medium,Normal
+PT0012,Registration,Triage,8,Medium,Low,Normal
+PT0012,Triage,Initial Assessment,14,Medium,Low,Normal
+PT0012,Initial Assessment,Diagnostic Test,8,Medium,Low,Normal
+PT0012,Diagnostic Test,Clinical Review,36,Medium,Low,Normal
+PT0012,Clinical Review,Treatment,73,Medium,Low,Normal
+PT0012,Treatment,Discharge Planning,14,Medium,Low,Normal
+PT0012,Discharge Planning,Discharge,7,Medium,Low,Normal
+PT0013,Registration,Triage,3,High,Medium,Normal
+PT0013,Triage,Initial Assessment,31,High,Medium,Normal
+PT0013,Initial Assessment,Diagnostic Test,15,High,Medium,Normal
+PT0013,Diagnostic Test,Clinical Review,27,High,Medium,Normal
+PT0013,Clinical Review,Treatment,61,High,Medium,Normal
+PT0013,Treatment,Discharge Planning,13,High,Medium,Normal
+PT0013,Discharge Planning,Discharge,11,High,Medium,Normal
+PT0014,Registration,Triage,1,Medium,Low,Normal
+PT0014,Triage,Initial Assessment,14,Medium,Low,Normal
+PT0014,Initial Assessment,Diagnostic Test,34,Medium,Low,Normal
+PT0014,Diagnostic Test,Clinical Review,33,Medium,Low,Normal
+PT0014,Clinical Review,Treatment,31,Medium,Low,Normal
+PT0014,Treatment,Discharge Planning,16,Medium,Low,Normal
+PT0014,Discharge Planning,Discharge,6,Medium,Low,Normal
+PT0015,Registration,Triage,10,Medium,Low,Loop-back
+PT0015,Triage,Initial Assessment,13,Medium,Low,Loop-back
+PT0015,Initial Assessment,Diagnostic Test,48,Medium,Low,Loop-back
+PT0015,Diagnostic Test,Clinical Review,14,Medium,Low,Loop-back
+PT0015,Clinical Review,Initial Assessment,24,Medium,Low,Loop-back
+PT0015,Initial Assessment,Clinical Review,20,Medium,Low,Loop-back
+PT0015,Clinical Review,Treatment,18,Medium,Low,Loop-back
+PT0015,Treatment,Discharge Planning,7,Medium,Low,Loop-back
+PT0015,Discharge Planning,Discharge,8,Medium,Low,Loop-back
+PT0016,Registration,Triage,10,Medium,Low,Normal
+PT0016,Triage,Initial Assessment,37,Medium,Low,Normal
+PT0016,Initial Assessment,Diagnostic Test,13,Medium,Low,Normal
+PT0016,Diagnostic Test,Clinical Review,19,Medium,Low,Normal
+PT0016,Clinical Review,Treatment,49,Medium,Low,Normal
+PT0016,Treatment,Discharge Planning,51,Medium,Low,Normal
+PT0016,Discharge Planning,Discharge,4,Medium,Low,Normal
+PT0017,Registration,Triage,24,Medium,High,Normal
+PT0017,Triage,Initial Assessment,39,Medium,High,Normal
+PT0017,Initial Assessment,Diagnostic Test,24,Medium,High,Normal
+PT0017,Diagnostic Test,Clinical Review,95,Medium,High,Normal
+PT0017,Clinical Review,Treatment,22,Medium,High,Normal
+PT0017,Treatment,Discharge Planning,97,Medium,High,Normal
+PT0017,Discharge Planning,Discharge,26,Medium,High,Normal
+PT0018,Registration,Triage,3,Low,High,Normal
+PT0018,Triage,Initial Assessment,24,Low,High,Normal
+PT0018,Initial Assessment,Diagnostic Test,81,Low,High,Normal
+PT0018,Diagnostic Test,Clinical Review,58,Low,High,Normal
+PT0018,Clinical Review,Treatment,22,Low,High,Normal
+PT0018,Treatment,Discharge Planning,84,Low,High,Normal
+PT0018,Discharge Planning,Discharge,15,Low,High,Normal
+PT0019,Registration,Triage,23,High,Low,Normal
+PT0019,Triage,Initial Assessment,10,High,Low,Normal
+PT0019,Initial Assessment,Diagnostic Test,27,High,Low,Normal
+PT0019,Diagnostic Test,Clinical Review,18,High,Low,Normal
+PT0019,Clinical Review,Treatment,4,High,Low,Normal
+PT0019,Treatment,Discharge Planning,9,High,Low,Normal
+PT0019,Discharge Planning,Discharge,10,High,Low,Normal
+PT0020,Registration,Triage,13,Low,High,Normal
+PT0020,Triage,Initial Assessment,55,Low,High,Normal
+PT0020,Initial Assessment,Diagnostic Test,18,Low,High,Normal
+PT0020,Diagnostic Test,Clinical Review,64,Low,High,Normal
+PT0020,Clinical Review,Treatment,122,Low,High,Normal
+PT0020,Treatment,Discharge Planning,24,Low,High,Normal
+PT0020,Discharge Planning,Discharge,17,Low,High,Normal
+PT0021,Registration,Triage,4,High,High,Loop-back
+PT0021,Triage,Initial Assessment,20,High,High,Loop-back
+PT0021,Initial Assessment,Diagnostic Test,16,High,High,Loop-back
+PT0021,Diagnostic Test,Clinical Review,48,High,High,Loop-back
+PT0021,Clinical Review,Diagnostic Test,36,High,High,Loop-back
+PT0021,Diagnostic Test,Clinical Review,49,High,High,Loop-back
+PT0021,Clinical Review,Treatment,91,High,High,Loop-back
+PT0021,Treatment,Discharge Planning,53,High,High,Loop-back
+PT0021,Discharge Planning,Discharge,6,High,High,Loop-back
+PT0022,Registration,Triage,1,High,Low,Loop-back
+PT0022,Triage,Initial Assessment,5,High,Low,Loop-back
+PT0022,Initial Assessment,Diagnostic Test,57,High,Low,Loop-back
+PT0022,Diagnostic Test,Clinical Review,16,High,Low,Loop-back
+PT0022,Clinical Review,Diagnostic Test,56,High,Low,Loop-back
+PT0022,Diagnostic Test,Clinical Review,24,High,Low,Loop-back
+PT0022,Clinical Review,Treatment,37,High,Low,Loop-back
+PT0022,Treatment,Discharge Planning,11,High,Low,Loop-back
+PT0022,Discharge Planning,Discharge,23,High,Low,Loop-back
+PT0023,Registration,Triage,2,Low,Low,Loop-back
+PT0023,Triage,Initial Assessment,37,Low,Low,Loop-back
+PT0023,Initial Assessment,Diagnostic Test,26,Low,Low,Loop-back
+PT0023,Diagnostic Test,Clinical Review,8,Low,Low,Loop-back
+PT0023,Clinical Review,Initial Assessment,18,Low,Low,Loop-back
+PT0023,Initial Assessment,Clinical Review,26,Low,Low,Loop-back
+PT0023,Clinical Review,Treatment,47,Low,Low,Loop-back
+PT0023,Treatment,Discharge Planning,5,Low,Low,Loop-back
+PT0023,Discharge Planning,Discharge,8,Low,Low,Loop-back
+PT0024,Registration,Triage,4,Low,Medium,Normal
+PT0024,Triage,Initial Assessment,34,Low,Medium,Normal
+PT0024,Initial Assessment,Diagnostic Test,41,Low,Medium,Normal
+PT0024,Diagnostic Test,Clinical Review,89,Low,Medium,Normal
+PT0024,Clinical Review,Treatment,23,Low,Medium,Normal
+PT0024,Treatment,Discharge Planning,18,Low,Medium,Normal
+PT0024,Discharge Planning,Discharge,16,Low,Medium,Normal
+PT0025,Registration,Triage,5,Low,Low,Normal
+PT0025,Triage,Initial Assessment,20,Low,Low,Normal
+PT0025,Initial Assessment,Diagnostic Test,48,Low,Low,Normal
+PT0025,Diagnostic Test,Clinical Review,27,Low,Low,Normal
+PT0025,Clinical Review,Treatment,26,Low,Low,Normal
+PT0025,Treatment,Discharge Planning,7,Low,Low,Normal
+PT0025,Discharge Planning,Discharge,1,Low,Low,Normal
+PT0026,Registration,Triage,3,Medium,Medium,Normal
+PT0026,Triage,Initial Assessment,17,Medium,Medium,Normal
+PT0026,Initial Assessment,Diagnostic Test,22,Medium,Medium,Normal
+PT0026,Diagnostic Test,Clinical Review,58,Medium,Medium,Normal
+PT0026,Clinical Review,Treatment,10,Medium,Medium,Normal
+PT0026,Treatment,Discharge Planning,54,Medium,Medium,Normal
+PT0026,Discharge Planning,Discharge,4,Medium,Medium,Normal
+PT0027,Registration,Triage,16,Medium,Low,Normal
+PT0027,Triage,Initial Assessment,42,Medium,Low,Normal
+PT0027,Initial Assessment,Diagnostic Test,29,Medium,Low,Normal
+PT0027,Diagnostic Test,Clinical Review,19,Medium,Low,Normal
+PT0027,Clinical Review,Treatment,31,Medium,Low,Normal
+PT0027,Treatment,Discharge Planning,19,Medium,Low,Normal
+PT0027,Discharge Planning,Discharge,21,Medium,Low,Normal
+PT0028,Registration,Triage,9,Medium,Low,Normal
+PT0028,Triage,Initial Assessment,3,Medium,Low,Normal
+PT0028,Initial Assessment,Diagnostic Test,15,Medium,Low,Normal
+PT0028,Diagnostic Test,Clinical Review,22,Medium,Low,Normal
+PT0028,Clinical Review,Treatment,13,Medium,Low,Normal
+PT0028,Treatment,Discharge Planning,12,Medium,Low,Normal
+PT0028,Discharge Planning,Discharge,9,Medium,Low,Normal
+PT0029,Registration,Triage,4,Medium,High,Normal
+PT0029,Triage,Initial Assessment,40,Medium,High,Normal
+PT0029,Initial Assessment,Diagnostic Test,14,Medium,High,Normal
+PT0029,Diagnostic Test,Clinical Review,76,Medium,High,Normal
+PT0029,Clinical Review,Treatment,56,Medium,High,Normal
+PT0029,Treatment,Discharge Planning,32,Medium,High,Normal
+PT0029,Discharge Planning,Discharge,16,Medium,High,Normal
+PT0030,Registration,Triage,1,High,Low,Normal
+PT0030,Triage,Initial Assessment,5,High,Low,Normal
+PT0030,Initial Assessment,Diagnostic Test,14,High,Low,Normal
+PT0030,Diagnostic Test,Clinical Review,21,High,Low,Normal
+PT0030,Clinical Review,Treatment,22,High,Low,Normal
+PT0030,Treatment,Discharge Planning,7,High,Low,Normal
+PT0030,Discharge Planning,Discharge,15,High,Low,Normal
+PT0031,Registration,Triage,2,High,Low,Normal
+PT0031,Triage,Initial Assessment,5,High,Low,Normal
+PT0031,Initial Assessment,Diagnostic Test,20,High,Low,Normal
+PT0031,Diagnostic Test,Clinical Review,17,High,Low,Normal
+PT0031,Clinical Review,Treatment,20,High,Low,Normal
+PT0031,Treatment,Discharge Planning,6,High,Low,Normal
+PT0031,Discharge Planning,Discharge,20,High,Low,Normal
+PT0032,Registration,Triage,12,High,Low,Normal
+PT0032,Triage,Initial Assessment,15,High,Low,Normal
+PT0032,Initial Assessment,Diagnostic Test,20,High,Low,Normal
+PT0032,Diagnostic Test,Clinical Review,24,High,Low,Normal
+PT0032,Clinical Review,Treatment,38,High,Low,Normal
+PT0032,Treatment,Discharge Planning,15,High,Low,Normal
+PT0032,Discharge Planning,Discharge,12,High,Low,Normal
+PT0033,Registration,Triage,17,Medium,Medium,Normal
+PT0033,Triage,Initial Assessment,19,Medium,Medium,Normal
+PT0033,Initial Assessment,Diagnostic Test,27,Medium,Medium,Normal
+PT0033,Diagnostic Test,Clinical Review,29,Medium,Medium,Normal
+PT0033,Clinical Review,Treatment,34,Medium,Medium,Normal
+PT0033,Treatment,Discharge Planning,2,Medium,Medium,Normal
+PT0033,Discharge Planning,Discharge,36,Medium,Medium,Normal
+PT0034,Registration,Triage,1,High,High,Normal
+PT0034,Triage,Initial Assessment,39,High,High,Normal
+PT0034,Initial Assessment,Diagnostic Test,72,High,High,Normal
+PT0034,Diagnostic Test,Clinical Review,19,High,High,Normal
+PT0034,Clinical Review,Treatment,111,High,High,Normal
+PT0034,Treatment,Discharge Planning,16,High,High,Normal
+PT0034,Discharge Planning,Discharge,7,High,High,Normal
+PT0035,Registration,Triage,15,Low,High,Loop-back
+PT0035,Triage,Initial Assessment,51,Low,High,Loop-back
+PT0035,Initial Assessment,Diagnostic Test,30,Low,High,Loop-back
+PT0035,Diagnostic Test,Clinical Review,38,Low,High,Loop-back
+PT0035,Clinical Review,Diagnostic Test,154,Low,High,Loop-back
+PT0035,Diagnostic Test,Clinical Review,157,Low,High,Loop-back
+PT0035,Clinical Review,Treatment,178,Low,High,Loop-back
+PT0035,Treatment,Discharge Planning,45,Low,High,Loop-back
+PT0035,Discharge Planning,Discharge,14,Low,High,Loop-back
+PT0036,Registration,Triage,1,Low,Low,Normal
+PT0036,Triage,Initial Assessment,7,Low,Low,Normal
+PT0036,Initial Assessment,Diagnostic Test,40,Low,Low,Normal
+PT0036,Diagnostic Test,Clinical Review,41,Low,Low,Normal
+PT0036,Clinical Review,Treatment,23,Low,Low,Normal
+PT0036,Treatment,Discharge Planning,1,Low,Low,Normal
+PT0036,Discharge Planning,Discharge,13,Low,Low,Normal
+PT0037,Registration,Triage,20,Medium,Medium,Normal
+PT0037,Triage,Initial Assessment,20,Medium,Medium,Normal
+PT0037,Initial Assessment,Diagnostic Test,18,Medium,Medium,Normal
+PT0037,Diagnostic Test,Clinical Review,49,Medium,Medium,Normal
+PT0037,Clinical Review,Treatment,81,Medium,Medium,Normal
+PT0037,Treatment,Discharge Planning,19,Medium,Medium,Normal
+PT0037,Discharge Planning,Discharge,23,Medium,Medium,Normal
+PT0038,Registration,Triage,5,Low,Low,Normal
+PT0038,Triage,Initial Assessment,44,Low,Low,Normal
+PT0038,Initial Assessment,Diagnostic Test,32,Low,Low,Normal
+PT0038,Diagnostic Test,Clinical Review,84,Low,Low,Normal
+PT0038,Clinical Review,Treatment,27,Low,Low,Normal
+PT0038,Treatment,Discharge Planning,4,Low,Low,Normal
+PT0038,Discharge Planning,Discharge,13,Low,Low,Normal
+PT0039,Registration,Triage,5,High,Medium,Normal
+PT0039,Triage,Initial Assessment,22,High,Medium,Normal
+PT0039,Initial Assessment,Diagnostic Test,33,High,Medium,Normal
+PT0039,Diagnostic Test,Clinical Review,13,High,Medium,Normal
+PT0039,Clinical Review,Treatment,57,High,Medium,Normal
+PT0039,Treatment,Discharge Planning,24,High,Medium,Normal
+PT0039,Discharge Planning,Discharge,13,High,Medium,Normal
+PT0040,Registration,Triage,9,High,Medium,Normal
+PT0040,Triage,Initial Assessment,65,High,Medium,Normal
+PT0040,Initial Assessment,Diagnostic Test,23,High,Medium,Normal
+PT0040,Diagnostic Test,Clinical Review,27,High,Medium,Normal
+PT0040,Clinical Review,Treatment,20,High,Medium,Normal
+PT0040,Treatment,Discharge Planning,26,High,Medium,Normal
+PT0040,Discharge Planning,Discharge,14,High,Medium,Normal
+PT0041,Registration,Triage,1,High,Medium,Normal
+PT0041,Triage,Initial Assessment,19,High,Medium,Normal
+PT0041,Initial Assessment,Diagnostic Test,22,High,Medium,Normal
+PT0041,Diagnostic Test,Clinical Review,8,High,Medium,Normal
+PT0041,Clinical Review,Treatment,76,High,Medium,Normal
+PT0041,Treatment,Discharge Planning,45,High,Medium,Normal
+PT0041,Discharge Planning,Discharge,3,High,Medium,Normal
+PT0042,Registration,Triage,7,Medium,Low,Loop-back
+PT0042,Triage,Initial Assessment,4,Medium,Low,Loop-back
+PT0042,Initial Assessment,Diagnostic Test,98,Medium,Low,Loop-back
+PT0042,Diagnostic Test,Clinical Review,18,Medium,Low,Loop-back
+PT0042,Clinical Review,Diagnostic Test,30,Medium,Low,Loop-back
+PT0042,Diagnostic Test,Clinical Review,34,Medium,Low,Loop-back
+PT0042,Clinical Review,Treatment,15,Medium,Low,Loop-back
+PT0042,Treatment,Discharge Planning,10,Medium,Low,Loop-back
+PT0042,Discharge Planning,Discharge,6,Medium,Low,Loop-back
+PT0043,Registration,Triage,8,High,High,Normal
+PT0043,Triage,Initial Assessment,22,High,High,Normal
+PT0043,Initial Assessment,Diagnostic Test,141,High,High,Normal
+PT0043,Diagnostic Test,Clinical Review,58,High,High,Normal
+PT0043,Clinical Review,Treatment,84,High,High,Normal
+PT0043,Treatment,Discharge Planning,5,High,High,Normal
+PT0043,Discharge Planning,Discharge,15,High,High,Normal
+PT0044,Registration,Triage,21,Medium,High,Loop-back
+PT0044,Triage,Initial Assessment,17,Medium,High,Loop-back
+PT0044,Initial Assessment,Diagnostic Test,58,Medium,High,Loop-back
+PT0044,Diagnostic Test,Clinical Review,17,Medium,High,Loop-back
+PT0044,Clinical Review,Diagnostic Test,19,Medium,High,Loop-back
+PT0044,Diagnostic Test,Clinical Review,26,Medium,High,Loop-back
+PT0044,Clinical Review,Treatment,86,Medium,High,Loop-back
+PT0044,Treatment,Discharge Planning,32,Medium,High,Loop-back
+PT0044,Discharge Planning,Discharge,2,Medium,High,Loop-back
+PT0045,Registration,Triage,29,Medium,High,Normal
+PT0045,Triage,Initial Assessment,52,Medium,High,Normal
+PT0045,Initial Assessment,Diagnostic Test,18,Medium,High,Normal
+PT0045,Diagnostic Test,Clinical Review,110,Medium,High,Normal
+PT0045,Clinical Review,Treatment,56,Medium,High,Normal
+PT0045,Treatment,Discharge Planning,15,Medium,High,Normal
+PT0045,Discharge Planning,Discharge,12,Medium,High,Normal
+PT0046,Registration,Triage,6,Medium,Low,Normal
+PT0046,Triage,Initial Assessment,6,Medium,Low,Normal
+PT0046,Initial Assessment,Diagnostic Test,30,Medium,Low,Normal
+PT0046,Diagnostic Test,Clinical Review,18,Medium,Low,Normal
+PT0046,Clinical Review,Treatment,10,Medium,Low,Normal
+PT0046,Treatment,Discharge Planning,19,Medium,Low,Normal
+PT0046,Discharge Planning,Discharge,6,Medium,Low,Normal
+PT0047,Registration,Triage,6,High,Medium,Loop-back
+PT0047,Triage,Initial Assessment,21,High,Medium,Loop-back
+PT0047,Initial Assessment,Diagnostic Test,24,High,Medium,Loop-back
+PT0047,Diagnostic Test,Clinical Review,16,High,Medium,Loop-back
+PT0047,Clinical Review,Diagnostic Test,21,High,Medium,Loop-back
+PT0047,Diagnostic Test,Clinical Review,20,High,Medium,Loop-back
+PT0047,Clinical Review,Treatment,38,High,Medium,Loop-back
+PT0047,Treatment,Discharge Planning,24,High,Medium,Loop-back
+PT0047,Discharge Planning,Discharge,1,High,Medium,Loop-back
+PT0048,Registration,Triage,10,Low,Low,Normal
+PT0048,Triage,Initial Assessment,20,Low,Low,Normal
+PT0048,Initial Assessment,Diagnostic Test,2,Low,Low,Normal
+PT0048,Diagnostic Test,Clinical Review,23,Low,Low,Normal
+PT0048,Clinical Review,Treatment,24,Low,Low,Normal
+PT0048,Treatment,Discharge Planning,14,Low,Low,Normal
+PT0048,Discharge Planning,Discharge,21,Low,Low,Normal
+PT0049,Registration,Triage,6,High,Low,Normal
+PT0049,Triage,Initial Assessment,12,High,Low,Normal
+PT0049,Initial Assessment,Diagnostic Test,16,High,Low,Normal
+PT0049,Diagnostic Test,Clinical Review,8,High,Low,Normal
+PT0049,Clinical Review,Treatment,15,High,Low,Normal
+PT0049,Treatment,Discharge Planning,7,High,Low,Normal
+PT0049,Discharge Planning,Discharge,5,High,Low,Normal
+PT0050,Registration,Triage,10,Medium,High,Normal
+PT0050,Triage,Initial Assessment,13,Medium,High,Normal
+PT0050,Initial Assessment,Diagnostic Test,61,Medium,High,Normal
+PT0050,Diagnostic Test,Clinical Review,84,Medium,High,Normal
+PT0050,Clinical Review,Treatment,95,Medium,High,Normal
+PT0050,Treatment,Discharge Planning,18,Medium,High,Normal
+PT0050,Discharge Planning,Discharge,43,Medium,High,Normal
+PT0051,Registration,Triage,10,Medium,Medium,Loop-back
+PT0051,Triage,Initial Assessment,6,Medium,Medium,Loop-back
+PT0051,Initial Assessment,Diagnostic Test,30,Medium,Medium,Loop-back
+PT0051,Diagnostic Test,Clinical Review,74,Medium,Medium,Loop-back
+PT0051,Clinical Review,Initial Assessment,12,Medium,Medium,Loop-back
+PT0051,Initial Assessment,Clinical Review,53,Medium,Medium,Loop-back
+PT0051,Clinical Review,Treatment,27,Medium,Medium,Loop-back
+PT0051,Treatment,Discharge Planning,76,Medium,Medium,Loop-back
+PT0051,Discharge Planning,Discharge,8,Medium,Medium,Loop-back
+PT0052,Registration,Triage,70,Medium,High,Normal
+PT0052,Triage,Initial Assessment,36,Medium,High,Normal
+PT0052,Initial Assessment,Diagnostic Test,63,Medium,High,Normal
+PT0052,Diagnostic Test,Clinical Review,107,Medium,High,Normal
+PT0052,Clinical Review,Treatment,27,Medium,High,Normal
+PT0052,Treatment,Discharge Planning,6,Medium,High,Normal
+PT0052,Discharge Planning,Discharge,22,Medium,High,Normal
+PT0053,Registration,Triage,5,High,Low,Loop-back
+PT0053,Triage,Initial Assessment,13,High,Low,Loop-back
+PT0053,Initial Assessment,Diagnostic Test,19,High,Low,Loop-back
+PT0053,Diagnostic Test,Clinical Review,19,High,Low,Loop-back
+PT0053,Clinical Review,Diagnostic Test,30,High,Low,Loop-back
+PT0053,Diagnostic Test,Clinical Review,35,High,Low,Loop-back
+PT0053,Clinical Review,Treatment,40,High,Low,Loop-back
+PT0053,Treatment,Discharge Planning,18,High,Low,Loop-back
+PT0053,Discharge Planning,Discharge,12,High,Low,Loop-back
+PT0054,Registration,Triage,9,High,Low,Normal
+PT0054,Triage,Initial Assessment,13,High,Low,Normal
+PT0054,Initial Assessment,Diagnostic Test,11,High,Low,Normal
+PT0054,Diagnostic Test,Clinical Review,22,High,Low,Normal
+PT0054,Clinical Review,Treatment,30,High,Low,Normal
+PT0054,Treatment,Discharge Planning,26,High,Low,Normal
+PT0054,Discharge Planning,Discharge,7,High,Low,Normal
+PT0055,Registration,Triage,1,High,Medium,Loop-back
+PT0055,Triage,Initial Assessment,3,High,Medium,Loop-back
+PT0055,Initial Assessment,Diagnostic Test,27,High,Medium,Loop-back
+PT0055,Diagnostic Test,Clinical Review,24,High,Medium,Loop-back
+PT0055,Clinical Review,Initial Assessment,9,High,Medium,Loop-back
+PT0055,Initial Assessment,Clinical Review,13,High,Medium,Loop-back
+PT0055,Clinical Review,Treatment,12,High,Medium,Loop-back
+PT0055,Treatment,Discharge Planning,13,High,Medium,Loop-back
+PT0055,Discharge Planning,Discharge,12,High,Medium,Loop-back
+PT0056,Registration,Triage,2,Medium,Low,Normal
+PT0056,Triage,Initial Assessment,36,Medium,Low,Normal
+PT0056,Initial Assessment,Diagnostic Test,11,Medium,Low,Normal
+PT0056,Diagnostic Test,Clinical Review,16,Medium,Low,Normal
+PT0056,Clinical Review,Treatment,85,Medium,Low,Normal
+PT0056,Treatment,Discharge Planning,7,Medium,Low,Normal
+PT0056,Discharge Planning,Discharge,1,Medium,Low,Normal
+PT0057,Registration,Triage,9,Medium,Low,Normal
+PT0057,Triage,Initial Assessment,7,Medium,Low,Normal
+PT0057,Initial Assessment,Diagnostic Test,16,Medium,Low,Normal
+PT0057,Diagnostic Test,Clinical Review,18,Medium,Low,Normal
+PT0057,Clinical Review,Treatment,29,Medium,Low,Normal
+PT0057,Treatment,Discharge Planning,12,Medium,Low,Normal
+PT0057,Discharge Planning,Discharge,19,Medium,Low,Normal
+PT0058,Registration,Triage,14,Low,High,Normal
+PT0058,Triage,Initial Assessment,21,Low,High,Normal
+PT0058,Initial Assessment,Diagnostic Test,86,Low,High,Normal
+PT0058,Diagnostic Test,Clinical Review,65,Low,High,Normal
+PT0058,Clinical Review,Treatment,258,Low,High,Normal
+PT0058,Treatment,Discharge Planning,40,Low,High,Normal
+PT0058,Discharge Planning,Discharge,9,Low,High,Normal
+PT0059,Registration,Triage,16,Medium,High,Normal
+PT0059,Triage,Initial Assessment,47,Medium,High,Normal
+PT0059,Initial Assessment,Diagnostic Test,49,Medium,High,Normal
+PT0059,Diagnostic Test,Clinical Review,2,Medium,High,Normal
+PT0059,Clinical Review,Treatment,41,Medium,High,Normal
+PT0059,Treatment,Discharge Planning,48,Medium,High,Normal
+PT0059,Discharge Planning,Discharge,27,Medium,High,Normal
+PT0060,Registration,Triage,7,High,Low,Normal
+PT0060,Triage,Initial Assessment,4,High,Low,Normal
+PT0060,Initial Assessment,Diagnostic Test,20,High,Low,Normal
+PT0060,Diagnostic Test,Clinical Review,9,High,Low,Normal
+PT0060,Clinical Review,Treatment,27,High,Low,Normal
+PT0060,Treatment,Discharge Planning,20,High,Low,Normal
+PT0060,Discharge Planning,Discharge,6,High,Low,Normal
+PT0061,Registration,Triage,1,Medium,High,Loop-back
+PT0061,Triage,Initial Assessment,12,Medium,High,Loop-back
+PT0061,Initial Assessment,Diagnostic Test,48,Medium,High,Loop-back
+PT0061,Diagnostic Test,Clinical Review,49,Medium,High,Loop-back
+PT0061,Clinical Review,Diagnostic Test,55,Medium,High,Loop-back
+PT0061,Diagnostic Test,Clinical Review,51,Medium,High,Loop-back
+PT0061,Clinical Review,Treatment,49,Medium,High,Loop-back
+PT0061,Treatment,Discharge Planning,15,Medium,High,Loop-back
+PT0061,Discharge Planning,Discharge,40,Medium,High,Loop-back
+PT0062,Registration,Triage,8,High,Low,Normal
+PT0062,Triage,Initial Assessment,12,High,Low,Normal
+PT0062,Initial Assessment,Diagnostic Test,25,High,Low,Normal
+PT0062,Diagnostic Test,Clinical Review,11,High,Low,Normal
+PT0062,Clinical Review,Treatment,27,High,Low,Normal
+PT0062,Treatment,Discharge Planning,10,High,Low,Normal
+PT0062,Discharge Planning,Discharge,4,High,Low,Normal
+PT0063,Registration,Triage,3,Medium,Low,Loop-back
+PT0063,Triage,Initial Assessment,9,Medium,Low,Loop-back
+PT0063,Initial Assessment,Diagnostic Test,39,Medium,Low,Loop-back
+PT0063,Diagnostic Test,Clinical Review,49,Medium,Low,Loop-back
+PT0063,Clinical Review,Diagnostic Test,10,Medium,Low,Loop-back
+PT0063,Diagnostic Test,Clinical Review,23,Medium,Low,Loop-back
+PT0063,Clinical Review,Treatment,23,Medium,Low,Loop-back
+PT0063,Treatment,Discharge Planning,6,Medium,Low,Loop-back
+PT0063,Discharge Planning,Discharge,7,Medium,Low,Loop-back
+PT0064,Registration,Triage,4,High,Low,Loop-back
+PT0064,Triage,Initial Assessment,8,High,Low,Loop-back
+PT0064,Initial Assessment,Diagnostic Test,38,High,Low,Loop-back
+PT0064,Diagnostic Test,Clinical Review,24,High,Low,Loop-back
+PT0064,Clinical Review,Diagnostic Test,43,High,Low,Loop-back
+PT0064,Diagnostic Test,Clinical Review,16,High,Low,Loop-back
+PT0064,Clinical Review,Treatment,24,High,Low,Loop-back
+PT0064,Treatment,Discharge Planning,4,High,Low,Loop-back
+PT0064,Discharge Planning,Discharge,29,High,Low,Loop-back
+PT0065,Registration,Triage,9,Medium,Medium,Normal
+PT0065,Triage,Initial Assessment,52,Medium,Medium,Normal
+PT0065,Initial Assessment,Diagnostic Test,50,Medium,Medium,Normal
+PT0065,Diagnostic Test,Clinical Review,28,Medium,Medium,Normal
+PT0065,Clinical Review,Treatment,67,Medium,Medium,Normal
+PT0065,Treatment,Discharge Planning,25,Medium,Medium,Normal
+PT0065,Discharge Planning,Discharge,1,Medium,Medium,Normal
+PT0066,Registration,Triage,15,Low,Medium,Normal
+PT0066,Triage,Initial Assessment,29,Low,Medium,Normal
+PT0066,Initial Assessment,Diagnostic Test,26,Low,Medium,Normal
+PT0066,Diagnostic Test,Clinical Review,69,Low,Medium,Normal
+PT0066,Clinical Review,Treatment,78,Low,Medium,Normal
+PT0066,Treatment,Discharge Planning,31,Low,Medium,Normal
+PT0066,Discharge Planning,Discharge,37,Low,Medium,Normal
+PT0067,Registration,Triage,6,Low,Low,Loop-back
+PT0067,Triage,Initial Assessment,20,Low,Low,Loop-back
+PT0067,Initial Assessment,Diagnostic Test,37,Low,Low,Loop-back
+PT0067,Diagnostic Test,Clinical Review,33,Low,Low,Loop-back
+PT0067,Clinical Review,Diagnostic Test,25,Low,Low,Loop-back
+PT0067,Diagnostic Test,Clinical Review,25,Low,Low,Loop-back
+PT0067,Clinical Review,Treatment,91,Low,Low,Loop-back
+PT0067,Treatment,Discharge Planning,4,Low,Low,Loop-back
+PT0067,Discharge Planning,Discharge,14,Low,Low,Loop-back
+PT0068,Registration,Triage,9,High,Low,Loop-back
+PT0068,Triage,Initial Assessment,32,High,Low,Loop-back
+PT0068,Initial Assessment,Diagnostic Test,18,High,Low,Loop-back
+PT0068,Diagnostic Test,Clinical Review,17,High,Low,Loop-back
+PT0068,Clinical Review,Initial Assessment,33,High,Low,Loop-back
+PT0068,Initial Assessment,Clinical Review,67,High,Low,Loop-back
+PT0068,Clinical Review,Treatment,11,High,Low,Loop-back
+PT0068,Treatment,Discharge Planning,10,High,Low,Loop-back
+PT0068,Discharge Planning,Discharge,11,High,Low,Loop-back
+PT0069,Registration,Triage,11,High,Medium,Normal
+PT0069,Triage,Initial Assessment,35,High,Medium,Normal
+PT0069,Initial Assessment,Diagnostic Test,5,High,Medium,Normal
+PT0069,Diagnostic Test,Clinical Review,15,High,Medium,Normal
+PT0069,Clinical Review,Treatment,21,High,Medium,Normal
+PT0069,Treatment,Discharge Planning,7,High,Medium,Normal
+PT0069,Discharge Planning,Discharge,1,High,Medium,Normal
+PT0070,Registration,Triage,3,High,Low,Loop-back
+PT0070,Triage,Initial Assessment,10,High,Low,Loop-back
+PT0070,Initial Assessment,Diagnostic Test,40,High,Low,Loop-back
+PT0070,Diagnostic Test,Clinical Review,48,High,Low,Loop-back
+PT0070,Clinical Review,Initial Assessment,13,High,Low,Loop-back
+PT0070,Initial Assessment,Clinical Review,19,High,Low,Loop-back
+PT0070,Clinical Review,Treatment,33,High,Low,Loop-back
+PT0070,Treatment,Discharge Planning,48,High,Low,Loop-back
+PT0070,Discharge Planning,Discharge,14,High,Low,Loop-back
+PT0071,Registration,Triage,4,High,Medium,Normal
+PT0071,Triage,Initial Assessment,5,High,Medium,Normal
+PT0071,Initial Assessment,Diagnostic Test,13,High,Medium,Normal
+PT0071,Diagnostic Test,Clinical Review,21,High,Medium,Normal
+PT0071,Clinical Review,Treatment,45,High,Medium,Normal
+PT0071,Treatment,Discharge Planning,17,High,Medium,Normal
+PT0071,Discharge Planning,Discharge,5,High,Medium,Normal
+PT0072,Registration,Triage,11,Low,Medium,Normal
+PT0072,Triage,Initial Assessment,14,Low,Medium,Normal
+PT0072,Initial Assessment,Diagnostic Test,4,Low,Medium,Normal
+PT0072,Diagnostic Test,Clinical Review,40,Low,Medium,Normal
+PT0072,Clinical Review,Treatment,89,Low,Medium,Normal
+PT0072,Treatment,Discharge Planning,18,Low,Medium,Normal
+PT0072,Discharge Planning,Discharge,30,Low,Medium,Normal
+PT0073,Registration,Triage,21,High,Medium,Normal
+PT0073,Triage,Initial Assessment,3,High,Medium,Normal
+PT0073,Initial Assessment,Diagnostic Test,19,High,Medium,Normal
+PT0073,Diagnostic Test,Clinical Review,31,High,Medium,Normal
+PT0073,Clinical Review,Treatment,60,High,Medium,Normal
+PT0073,Treatment,Discharge Planning,22,High,Medium,Normal
+PT0073,Discharge Planning,Discharge,18,High,Medium,Normal
+PT0074,Registration,Triage,9,High,High,Normal
+PT0074,Triage,Initial Assessment,18,High,High,Normal
+PT0074,Initial Assessment,Diagnostic Test,94,High,High,Normal
+PT0074,Diagnostic Test,Clinical Review,86,High,High,Normal
+PT0074,Clinical Review,Treatment,60,High,High,Normal
+PT0074,Treatment,Discharge Planning,32,High,High,Normal
+PT0074,Discharge Planning,Discharge,20,High,High,Normal
+PT0075,Registration,Triage,21,Low,High,Normal
+PT0075,Triage,Initial Assessment,96,Low,High,Normal
+PT0075,Initial Assessment,Diagnostic Test,211,Low,High,Normal
+PT0075,Diagnostic Test,Clinical Review,25,Low,High,Normal
+PT0075,Clinical Review,Treatment,139,Low,High,Normal
+PT0075,Treatment,Discharge Planning,39,Low,High,Normal
+PT0075,Discharge Planning,Discharge,21,Low,High,Normal
+PT0076,Registration,Triage,8,Medium,High,Normal
+PT0076,Triage,Initial Assessment,95,Medium,High,Normal
+PT0076,Initial Assessment,Diagnostic Test,60,Medium,High,Normal
+PT0076,Diagnostic Test,Clinical Review,107,Medium,High,Normal
+PT0076,Clinical Review,Treatment,26,Medium,High,Normal
+PT0076,Treatment,Discharge Planning,64,Medium,High,Normal
+PT0076,Discharge Planning,Discharge,13,Medium,High,Normal
+PT0077,Registration,Triage,6,Medium,Medium,Normal
+PT0077,Triage,Initial Assessment,3,Medium,Medium,Normal
+PT0077,Initial Assessment,Diagnostic Test,22,Medium,Medium,Normal
+PT0077,Diagnostic Test,Clinical Review,40,Medium,Medium,Normal
+PT0077,Clinical Review,Treatment,11,Medium,Medium,Normal
+PT0077,Treatment,Discharge Planning,16,Medium,Medium,Normal
+PT0077,Discharge Planning,Discharge,37,Medium,Medium,Normal
+PT0078,Registration,Triage,10,Medium,Low,Normal
+PT0078,Triage,Initial Assessment,10,Medium,Low,Normal
+PT0078,Initial Assessment,Diagnostic Test,22,Medium,Low,Normal
+PT0078,Diagnostic Test,Clinical Review,9,Medium,Low,Normal
+PT0078,Clinical Review,Treatment,59,Medium,Low,Normal
+PT0078,Treatment,Discharge Planning,7,Medium,Low,Normal
+PT0078,Discharge Planning,Discharge,24,Medium,Low,Normal
+PT0079,Registration,Triage,14,Low,Low,Normal
+PT0079,Triage,Initial Assessment,21,Low,Low,Normal
+PT0079,Initial Assessment,Diagnostic Test,12,Low,Low,Normal
+PT0079,Diagnostic Test,Clinical Review,29,Low,Low,Normal
+PT0079,Clinical Review,Treatment,32,Low,Low,Normal
+PT0079,Treatment,Discharge Planning,5,Low,Low,Normal
+PT0079,Discharge Planning,Discharge,9,Low,Low,Normal
+PT0080,Registration,Triage,3,Low,High,Normal
+PT0080,Triage,Initial Assessment,27,Low,High,Normal
+PT0080,Initial Assessment,Diagnostic Test,43,Low,High,Normal
+PT0080,Diagnostic Test,Clinical Review,17,Low,High,Normal
+PT0080,Clinical Review,Treatment,126,Low,High,Normal
+PT0080,Treatment,Discharge Planning,61,Low,High,Normal
+PT0080,Discharge Planning,Discharge,74,Low,High,Normal
+PT0081,Registration,Triage,75,Low,High,Normal
+PT0081,Triage,Initial Assessment,16,Low,High,Normal
+PT0081,Initial Assessment,Diagnostic Test,118,Low,High,Normal
+PT0081,Diagnostic Test,Clinical Review,47,Low,High,Normal
+PT0081,Clinical Review,Treatment,65,Low,High,Normal
+PT0081,Treatment,Discharge Planning,53,Low,High,Normal
+PT0081,Discharge Planning,Discharge,15,Low,High,Normal
+PT0082,Registration,Triage,1,Low,Low,Normal
+PT0082,Triage,Initial Assessment,15,Low,Low,Normal
+PT0082,Initial Assessment,Diagnostic Test,20,Low,Low,Normal
+PT0082,Diagnostic Test,Clinical Review,44,Low,Low,Normal
+PT0082,Clinical Review,Treatment,15,Low,Low,Normal
+PT0082,Treatment,Discharge Planning,55,Low,Low,Normal
+PT0082,Discharge Planning,Discharge,25,Low,Low,Normal
+PT0083,Registration,Triage,5,High,Low,Normal
+PT0083,Triage,Initial Assessment,21,High,Low,Normal
+PT0083,Initial Assessment,Diagnostic Test,11,High,Low,Normal
+PT0083,Diagnostic Test,Clinical Review,39,High,Low,Normal
+PT0083,Clinical Review,Treatment,60,High,Low,Normal
+PT0083,Treatment,Discharge Planning,5,High,Low,Normal
+PT0083,Discharge Planning,Discharge,43,High,Low,Normal
+PT0084,Registration,Triage,5,Low,Low,Normal
+PT0084,Triage,Initial Assessment,1,Low,Low,Normal
+PT0084,Initial Assessment,Diagnostic Test,40,Low,Low,Normal
+PT0084,Diagnostic Test,Clinical Review,53,Low,Low,Normal
+PT0084,Clinical Review,Treatment,40,Low,Low,Normal
+PT0084,Treatment,Discharge Planning,23,Low,Low,Normal
+PT0084,Discharge Planning,Discharge,4,Low,Low,Normal
+PT0085,Registration,Triage,11,Low,High,Normal
+PT0085,Triage,Initial Assessment,40,Low,High,Normal
+PT0085,Initial Assessment,Diagnostic Test,185,Low,High,Normal
+PT0085,Diagnostic Test,Clinical Review,158,Low,High,Normal
+PT0085,Clinical Review,Treatment,129,Low,High,Normal
+PT0085,Treatment,Discharge Planning,20,Low,High,Normal
+PT0085,Discharge Planning,Discharge,30,Low,High,Normal
+PT0086,Registration,Triage,36,Medium,High,Normal
+PT0086,Triage,Initial Assessment,77,Medium,High,Normal
+PT0086,Initial Assessment,Diagnostic Test,60,Medium,High,Normal
+PT0086,Diagnostic Test,Clinical Review,91,Medium,High,Normal
+PT0086,Clinical Review,Treatment,47,Medium,High,Normal
+PT0086,Treatment,Discharge Planning,42,Medium,High,Normal
+PT0086,Discharge Planning,Discharge,7,Medium,High,Normal
+PT0087,Registration,Triage,16,Low,High,Loop-back
+PT0087,Triage,Initial Assessment,24,Low,High,Loop-back
+PT0087,Initial Assessment,Diagnostic Test,18,Low,High,Loop-back
+PT0087,Diagnostic Test,Clinical Review,188,Low,High,Loop-back
+PT0087,Clinical Review,Initial Assessment,47,Low,High,Loop-back
+PT0087,Initial Assessment,Clinical Review,132,Low,High,Loop-back
+PT0087,Clinical Review,Treatment,192,Low,High,Loop-back
+PT0087,Treatment,Discharge Planning,18,Low,High,Loop-back
+PT0087,Discharge Planning,Discharge,19,Low,High,Loop-back
+PT0088,Registration,Triage,21,High,High,Normal
+PT0088,Triage,Initial Assessment,18,High,High,Normal
+PT0088,Initial Assessment,Diagnostic Test,23,High,High,Normal
+PT0088,Diagnostic Test,Clinical Review,79,High,High,Normal
+PT0088,Clinical Review,Treatment,44,High,High,Normal
+PT0088,Treatment,Discharge Planning,25,High,High,Normal
+PT0088,Discharge Planning,Discharge,20,High,High,Normal
+PT0089,Registration,Triage,3,Medium,Low,Loop-back
+PT0089,Triage,Initial Assessment,24,Medium,Low,Loop-back
+PT0089,Initial Assessment,Diagnostic Test,51,Medium,Low,Loop-back
+PT0089,Diagnostic Test,Clinical Review,15,Medium,Low,Loop-back
+PT0089,Clinical Review,Initial Assessment,10,Medium,Low,Loop-back
+PT0089,Initial Assessment,Clinical Review,91,Medium,Low,Loop-back
+PT0089,Clinical Review,Treatment,38,Medium,Low,Loop-back
+PT0089,Treatment,Discharge Planning,27,Medium,Low,Loop-back
+PT0089,Discharge Planning,Discharge,25,Medium,Low,Loop-back
+PT0090,Registration,Triage,8,Medium,Low,Normal
+PT0090,Triage,Initial Assessment,6,Medium,Low,Normal
+PT0090,Initial Assessment,Diagnostic Test,59,Medium,Low,Normal
+PT0090,Diagnostic Test,Clinical Review,67,Medium,Low,Normal
+PT0090,Clinical Review,Treatment,13,Medium,Low,Normal
+PT0090,Treatment,Discharge Planning,14,Medium,Low,Normal
+PT0090,Discharge Planning,Discharge,3,Medium,Low,Normal
+PT0091,Registration,Triage,9,Low,High,Normal
+PT0091,Triage,Initial Assessment,50,Low,High,Normal
+PT0091,Initial Assessment,Diagnostic Test,70,Low,High,Normal
+PT0091,Diagnostic Test,Clinical Review,27,Low,High,Normal
+PT0091,Clinical Review,Treatment,73,Low,High,Normal
+PT0091,Treatment,Discharge Planning,76,Low,High,Normal
+PT0091,Discharge Planning,Discharge,22,Low,High,Normal
+PT0092,Registration,Triage,9,Medium,Medium,Normal
+PT0092,Triage,Initial Assessment,11,Medium,Medium,Normal
+PT0092,Initial Assessment,Diagnostic Test,18,Medium,Medium,Normal
+PT0092,Diagnostic Test,Clinical Review,16,Medium,Medium,Normal
+PT0092,Clinical Review,Treatment,67,Medium,Medium,Normal
+PT0092,Treatment,Discharge Planning,12,Medium,Medium,Normal
+PT0092,Discharge Planning,Discharge,24,Medium,Medium,Normal
+PT0093,Registration,Triage,19,Medium,High,Normal
+PT0093,Triage,Initial Assessment,50,Medium,High,Normal
+PT0093,Initial Assessment,Diagnostic Test,28,Medium,High,Normal
+PT0093,Diagnostic Test,Clinical Review,22,Medium,High,Normal
+PT0093,Clinical Review,Treatment,122,Medium,High,Normal
+PT0093,Treatment,Discharge Planning,21,Medium,High,Normal
+PT0093,Discharge Planning,Discharge,45,Medium,High,Normal
+PT0094,Registration,Triage,17,High,High,Loop-back
+PT0094,Triage,Initial Assessment,7,High,High,Loop-back
+PT0094,Initial Assessment,Diagnostic Test,91,High,High,Loop-back
+PT0094,Diagnostic Test,Clinical Review,37,High,High,Loop-back
+PT0094,Clinical Review,Diagnostic Test,56,High,High,Loop-back
+PT0094,Diagnostic Test,Clinical Review,12,High,High,Loop-back
+PT0094,Clinical Review,Treatment,90,High,High,Loop-back
+PT0094,Treatment,Discharge Planning,43,High,High,Loop-back
+PT0094,Discharge Planning,Discharge,22,High,High,Loop-back
+PT0095,Registration,Triage,2,Low,Low,Normal
+PT0095,Triage,Initial Assessment,12,Low,Low,Normal
+PT0095,Initial Assessment,Diagnostic Test,33,Low,Low,Normal
+PT0095,Diagnostic Test,Clinical Review,17,Low,Low,Normal
+PT0095,Clinical Review,Treatment,73,Low,Low,Normal
+PT0095,Treatment,Discharge Planning,2,Low,Low,Normal
+PT0095,Discharge Planning,Discharge,7,Low,Low,Normal
+PT0096,Registration,Triage,2,High,Medium,Normal
+PT0096,Triage,Initial Assessment,14,High,Medium,Normal
+PT0096,Initial Assessment,Diagnostic Test,16,High,Medium,Normal
+PT0096,Diagnostic Test,Clinical Review,15,High,Medium,Normal
+PT0096,Clinical Review,Treatment,56,High,Medium,Normal
+PT0096,Treatment,Discharge Planning,6,High,Medium,Normal
+PT0096,Discharge Planning,Discharge,9,High,Medium,Normal
+PT0097,Registration,Triage,6,Low,Low,Loop-back
+PT0097,Triage,Initial Assessment,25,Low,Low,Loop-back
+PT0097,Initial Assessment,Diagnostic Test,25,Low,Low,Loop-back
+PT0097,Diagnostic Test,Clinical Review,18,Low,Low,Loop-back
+PT0097,Clinical Review,Initial Assessment,28,Low,Low,Loop-back
+PT0097,Initial Assessment,Clinical Review,42,Low,Low,Loop-back
+PT0097,Clinical Review,Treatment,30,Low,Low,Loop-back
+PT0097,Treatment,Discharge Planning,8,Low,Low,Loop-back
+PT0097,Discharge Planning,Discharge,6,Low,Low,Loop-back
+PT0098,Registration,Triage,1,High,Medium,Loop-back
+PT0098,Triage,Initial Assessment,5,High,Medium,Loop-back
+PT0098,Initial Assessment,Diagnostic Test,28,High,Medium,Loop-back
+PT0098,Diagnostic Test,Clinical Review,13,High,Medium,Loop-back
+PT0098,Clinical Review,Diagnostic Test,20,High,Medium,Loop-back
+PT0098,Diagnostic Test,Clinical Review,26,High,Medium,Loop-back
+PT0098,Clinical Review,Treatment,41,High,Medium,Loop-back
+PT0098,Treatment,Discharge Planning,9,High,Medium,Loop-back
+PT0098,Discharge Planning,Discharge,4,High,Medium,Loop-back
+PT0099,Registration,Triage,13,Medium,Low,Normal
+PT0099,Triage,Initial Assessment,5,Medium,Low,Normal
+PT0099,Initial Assessment,Diagnostic Test,25,Medium,Low,Normal
+PT0099,Diagnostic Test,Clinical Review,16,Medium,Low,Normal
+PT0099,Clinical Review,Treatment,59,Medium,Low,Normal
+PT0099,Treatment,Discharge Planning,14,Medium,Low,Normal
+PT0099,Discharge Planning,Discharge,14,Medium,Low,Normal
+PT0100,Registration,Triage,8,Medium,Low,Normal
+PT0100,Triage,Initial Assessment,19,Medium,Low,Normal
+PT0100,Initial Assessment,Diagnostic Test,27,Medium,Low,Normal
+PT0100,Diagnostic Test,Clinical Review,17,Medium,Low,Normal
+PT0100,Clinical Review,Treatment,30,Medium,Low,Normal
+PT0100,Treatment,Discharge Planning,24,Medium,Low,Normal
+PT0100,Discharge Planning,Discharge,5,Medium,Low,Normal
+PT0101,Registration,Triage,34,Medium,High,Loop-back
+PT0101,Triage,Initial Assessment,8,Medium,High,Loop-back
+PT0101,Initial Assessment,Diagnostic Test,16,Medium,High,Loop-back
+PT0101,Diagnostic Test,Clinical Review,89,Medium,High,Loop-back
+PT0101,Clinical Review,Diagnostic Test,98,Medium,High,Loop-back
+PT0101,Diagnostic Test,Clinical Review,70,Medium,High,Loop-back
+PT0101,Clinical Review,Treatment,21,Medium,High,Loop-back
+PT0101,Treatment,Discharge Planning,72,Medium,High,Loop-back
+PT0101,Discharge Planning,Discharge,18,Medium,High,Loop-back
+PT0102,Registration,Triage,14,Low,High,Normal
+PT0102,Triage,Initial Assessment,56,Low,High,Normal
+PT0102,Initial Assessment,Diagnostic Test,76,Low,High,Normal
+PT0102,Diagnostic Test,Clinical Review,49,Low,High,Normal
+PT0102,Clinical Review,Treatment,55,Low,High,Normal
+PT0102,Treatment,Discharge Planning,44,Low,High,Normal
+PT0102,Discharge Planning,Discharge,67,Low,High,Normal
+PT0103,Registration,Triage,15,Low,Low,Normal
+PT0103,Triage,Initial Assessment,18,Low,Low,Normal
+PT0103,Initial Assessment,Diagnostic Test,82,Low,Low,Normal
+PT0103,Diagnostic Test,Clinical Review,14,Low,Low,Normal
+PT0103,Clinical Review,Treatment,67,Low,Low,Normal
+PT0103,Treatment,Discharge Planning,26,Low,Low,Normal
+PT0103,Discharge Planning,Discharge,4,Low,Low,Normal
+PT0104,Registration,Triage,19,Low,Medium,Normal
+PT0104,Triage,Initial Assessment,26,Low,Medium,Normal
+PT0104,Initial Assessment,Diagnostic Test,12,Low,Medium,Normal
+PT0104,Diagnostic Test,Clinical Review,32,Low,Medium,Normal
+PT0104,Clinical Review,Treatment,56,Low,Medium,Normal
+PT0104,Treatment,Discharge Planning,54,Low,Medium,Normal
+PT0104,Discharge Planning,Discharge,73,Low,Medium,Normal
+PT0105,Registration,Triage,8,Medium,Low,Loop-back
+PT0105,Triage,Initial Assessment,30,Medium,Low,Loop-back
+PT0105,Initial Assessment,Diagnostic Test,16,Medium,Low,Loop-back
+PT0105,Diagnostic Test,Clinical Review,47,Medium,Low,Loop-back
+PT0105,Clinical Review,Diagnostic Test,33,Medium,Low,Loop-back
+PT0105,Diagnostic Test,Clinical Review,21,Medium,Low,Loop-back
+PT0105,Clinical Review,Treatment,69,Medium,Low,Loop-back
+PT0105,Treatment,Discharge Planning,9,Medium,Low,Loop-back
+PT0105,Discharge Planning,Discharge,9,Medium,Low,Loop-back
+PT0106,Registration,Triage,2,Low,Low,Loop-back
+PT0106,Triage,Initial Assessment,21,Low,Low,Loop-back
+PT0106,Initial Assessment,Diagnostic Test,49,Low,Low,Loop-back
+PT0106,Diagnostic Test,Clinical Review,80,Low,Low,Loop-back
+PT0106,Clinical Review,Initial Assessment,27,Low,Low,Loop-back
+PT0106,Initial Assessment,Clinical Review,5,Low,Low,Loop-back
+PT0106,Clinical Review,Treatment,40,Low,Low,Loop-back
+PT0106,Treatment,Discharge Planning,2,Low,Low,Loop-back
+PT0106,Discharge Planning,Discharge,19,Low,Low,Loop-back
+PT0107,Registration,Triage,14,Low,Medium,Normal
+PT0107,Triage,Initial Assessment,64,Low,Medium,Normal
+PT0107,Initial Assessment,Diagnostic Test,12,Low,Medium,Normal
+PT0107,Diagnostic Test,Clinical Review,30,Low,Medium,Normal
+PT0107,Clinical Review,Treatment,23,Low,Medium,Normal
+PT0107,Treatment,Discharge Planning,19,Low,Medium,Normal
+PT0107,Discharge Planning,Discharge,14,Low,Medium,Normal
+PT0108,Registration,Triage,13,Medium,Medium,Loop-back
+PT0108,Triage,Initial Assessment,44,Medium,Medium,Loop-back
+PT0108,Initial Assessment,Diagnostic Test,41,Medium,Medium,Loop-back
+PT0108,Diagnostic Test,Clinical Review,16,Medium,Medium,Loop-back
+PT0108,Clinical Review,Diagnostic Test,37,Medium,Medium,Loop-back
+PT0108,Diagnostic Test,Clinical Review,17,Medium,Medium,Loop-back
+PT0108,Clinical Review,Treatment,8,Medium,Medium,Loop-back
+PT0108,Treatment,Discharge Planning,4,Medium,Medium,Loop-back
+PT0108,Discharge Planning,Discharge,12,Medium,Medium,Loop-back
+PT0109,Registration,Triage,14,High,High,Normal
+PT0109,Triage,Initial Assessment,30,High,High,Normal
+PT0109,Initial Assessment,Diagnostic Test,68,High,High,Normal
+PT0109,Diagnostic Test,Clinical Review,22,High,High,Normal
+PT0109,Clinical Review,Treatment,89,High,High,Normal
+PT0109,Treatment,Discharge Planning,20,High,High,Normal
+PT0109,Discharge Planning,Discharge,7,High,High,Normal
+PT0110,Registration,Triage,7,High,High,Normal
+PT0110,Triage,Initial Assessment,10,High,High,Normal
+PT0110,Initial Assessment,Diagnostic Test,20,High,High,Normal
+PT0110,Diagnostic Test,Clinical Review,1,High,High,Normal
+PT0110,Clinical Review,Treatment,58,High,High,Normal
+PT0110,Treatment,Discharge Planning,17,High,High,Normal
+PT0110,Discharge Planning,Discharge,15,High,High,Normal
+PT0111,Registration,Triage,6,Low,Low,Normal
+PT0111,Triage,Initial Assessment,24,Low,Low,Normal
+PT0111,Initial Assessment,Diagnostic Test,26,Low,Low,Normal
+PT0111,Diagnostic Test,Clinical Review,38,Low,Low,Normal
+PT0111,Clinical Review,Treatment,10,Low,Low,Normal
+PT0111,Treatment,Discharge Planning,18,Low,Low,Normal
+PT0111,Discharge Planning,Discharge,23,Low,Low,Normal
+PT0112,Registration,Triage,3,Low,Low,Normal
+PT0112,Triage,Initial Assessment,7,Low,Low,Normal
+PT0112,Initial Assessment,Diagnostic Test,41,Low,Low,Normal
+PT0112,Diagnostic Test,Clinical Review,25,Low,Low,Normal
+PT0112,Clinical Review,Treatment,11,Low,Low,Normal
+PT0112,Treatment,Discharge Planning,22,Low,Low,Normal
+PT0112,Discharge Planning,Discharge,31,Low,Low,Normal
+PT0113,Registration,Triage,3,High,High,Loop-back
+PT0113,Triage,Initial Assessment,38,High,High,Loop-back
+PT0113,Initial Assessment,Diagnostic Test,57,High,High,Loop-back
+PT0113,Diagnostic Test,Clinical Review,6,High,High,Loop-back
+PT0113,Clinical Review,Initial Assessment,10,High,High,Loop-back
+PT0113,Initial Assessment,Clinical Review,21,High,High,Loop-back
+PT0113,Clinical Review,Treatment,34,High,High,Loop-back
+PT0113,Treatment,Discharge Planning,26,High,High,Loop-back
+PT0113,Discharge Planning,Discharge,16,High,High,Loop-back
+PT0114,Registration,Triage,14,High,Medium,Loop-back
+PT0114,Triage,Initial Assessment,23,High,Medium,Loop-back
+PT0114,Initial Assessment,Diagnostic Test,20,High,Medium,Loop-back
+PT0114,Diagnostic Test,Clinical Review,47,High,Medium,Loop-back
+PT0114,Clinical Review,Diagnostic Test,24,High,Medium,Loop-back
+PT0114,Diagnostic Test,Clinical Review,20,High,Medium,Loop-back
+PT0114,Clinical Review,Treatment,16,High,Medium,Loop-back
+PT0114,Treatment,Discharge Planning,33,High,Medium,Loop-back
+PT0114,Discharge Planning,Discharge,9,High,Medium,Loop-back
+PT0115,Registration,Triage,48,Low,High,Loop-back
+PT0115,Triage,Initial Assessment,32,Low,High,Loop-back
+PT0115,Initial Assessment,Diagnostic Test,48,Low,High,Loop-back
+PT0115,Diagnostic Test,Clinical Review,30,Low,High,Loop-back
+PT0115,Clinical Review,Diagnostic Test,28,Low,High,Loop-back
+PT0115,Diagnostic Test,Clinical Review,28,Low,High,Loop-back
+PT0115,Clinical Review,Treatment,58,Low,High,Loop-back
+PT0115,Treatment,Discharge Planning,61,Low,High,Loop-back
+PT0115,Discharge Planning,Discharge,20,Low,High,Loop-back
+PT0116,Registration,Triage,30,High,High,Normal
+PT0116,Triage,Initial Assessment,46,High,High,Normal
+PT0116,Initial Assessment,Diagnostic Test,47,High,High,Normal
+PT0116,Diagnostic Test,Clinical Review,13,High,High,Normal
+PT0116,Clinical Review,Treatment,50,High,High,Normal
+PT0116,Treatment,Discharge Planning,31,High,High,Normal
+PT0116,Discharge Planning,Discharge,15,High,High,Normal
+PT0117,Registration,Triage,15,Low,High,Loop-back
+PT0117,Triage,Initial Assessment,71,Low,High,Loop-back
+PT0117,Initial Assessment,Diagnostic Test,87,Low,High,Loop-back
+PT0117,Diagnostic Test,Clinical Review,74,Low,High,Loop-back
+PT0117,Clinical Review,Initial Assessment,23,Low,High,Loop-back
+PT0117,Initial Assessment,Clinical Review,25,Low,High,Loop-back
+PT0117,Clinical Review,Treatment,59,Low,High,Loop-back
+PT0117,Treatment,Discharge Planning,11,Low,High,Loop-back
+PT0117,Discharge Planning,Discharge,18,Low,High,Loop-back
+PT0118,Registration,Triage,4,Low,Low,Normal
+PT0118,Triage,Initial Assessment,77,Low,Low,Normal
+PT0118,Initial Assessment,Diagnostic Test,44,Low,Low,Normal
+PT0118,Diagnostic Test,Clinical Review,34,Low,Low,Normal
+PT0118,Clinical Review,Treatment,19,Low,Low,Normal
+PT0118,Treatment,Discharge Planning,1,Low,Low,Normal
+PT0118,Discharge Planning,Discharge,19,Low,Low,Normal
+PT0119,Registration,Triage,9,Low,High,Normal
+PT0119,Triage,Initial Assessment,17,Low,High,Normal
+PT0119,Initial Assessment,Diagnostic Test,115,Low,High,Normal
+PT0119,Diagnostic Test,Clinical Review,96,Low,High,Normal
+PT0119,Clinical Review,Treatment,29,Low,High,Normal
+PT0119,Treatment,Discharge Planning,14,Low,High,Normal
+PT0119,Discharge Planning,Discharge,21,Low,High,Normal
+PT0120,Registration,Triage,1,Medium,Low,Normal
+PT0120,Triage,Initial Assessment,8,Medium,Low,Normal
+PT0120,Initial Assessment,Diagnostic Test,62,Medium,Low,Normal
+PT0120,Diagnostic Test,Clinical Review,6,Medium,Low,Normal
+PT0120,Clinical Review,Treatment,39,Medium,Low,Normal
+PT0120,Treatment,Discharge Planning,21,Medium,Low,Normal
+PT0120,Discharge Planning,Discharge,6,Medium,Low,Normal
+PT0121,Registration,Triage,17,Low,High,Normal
+PT0121,Triage,Initial Assessment,51,Low,High,Normal
+PT0121,Initial Assessment,Diagnostic Test,207,Low,High,Normal
+PT0121,Diagnostic Test,Clinical Review,21,Low,High,Normal
+PT0121,Clinical Review,Treatment,15,Low,High,Normal
+PT0121,Treatment,Discharge Planning,4,Low,High,Normal
+PT0121,Discharge Planning,Discharge,20,Low,High,Normal
+PT0122,Registration,Triage,15,Low,High,Normal
+PT0122,Triage,Initial Assessment,86,Low,High,Normal
+PT0122,Initial Assessment,Diagnostic Test,161,Low,High,Normal
+PT0122,Diagnostic Test,Clinical Review,28,Low,High,Normal
+PT0122,Clinical Review,Treatment,41,Low,High,Normal
+PT0122,Treatment,Discharge Planning,15,Low,High,Normal
+PT0122,Discharge Planning,Discharge,29,Low,High,Normal
+PT0123,Registration,Triage,8,Medium,High,Loop-back
+PT0123,Triage,Initial Assessment,48,Medium,High,Loop-back
+PT0123,Initial Assessment,Diagnostic Test,36,Medium,High,Loop-back
+PT0123,Diagnostic Test,Clinical Review,88,Medium,High,Loop-back
+PT0123,Clinical Review,Diagnostic Test,106,Medium,High,Loop-back
+PT0123,Diagnostic Test,Clinical Review,25,Medium,High,Loop-back
+PT0123,Clinical Review,Treatment,129,Medium,High,Loop-back
+PT0123,Treatment,Discharge Planning,38,Medium,High,Loop-back
+PT0123,Discharge Planning,Discharge,37,Medium,High,Loop-back
+PT0124,Registration,Triage,7,High,High,Normal
+PT0124,Triage,Initial Assessment,22,High,High,Normal
+PT0124,Initial Assessment,Diagnostic Test,18,High,High,Normal
+PT0124,Diagnostic Test,Clinical Review,25,High,High,Normal
+PT0124,Clinical Review,Treatment,31,High,High,Normal
+PT0124,Treatment,Discharge Planning,21,High,High,Normal
+PT0124,Discharge Planning,Discharge,20,High,High,Normal
+PT0125,Registration,Triage,7,Medium,Low,Normal
+PT0125,Triage,Initial Assessment,93,Medium,Low,Normal
+PT0125,Initial Assessment,Diagnostic Test,29,Medium,Low,Normal
+PT0125,Diagnostic Test,Clinical Review,30,Medium,Low,Normal
+PT0125,Clinical Review,Treatment,11,Medium,Low,Normal
+PT0125,Treatment,Discharge Planning,7,Medium,Low,Normal
+PT0125,Discharge Planning,Discharge,9,Medium,Low,Normal
+PT0126,Registration,Triage,1,High,Medium,Normal
+PT0126,Triage,Initial Assessment,6,High,Medium,Normal
+PT0126,Initial Assessment,Diagnostic Test,13,High,Medium,Normal
+PT0126,Diagnostic Test,Clinical Review,68,High,Medium,Normal
+PT0126,Clinical Review,Treatment,19,High,Medium,Normal
+PT0126,Treatment,Discharge Planning,12,High,Medium,Normal
+PT0126,Discharge Planning,Discharge,6,High,Medium,Normal
+PT0127,Registration,Triage,3,Medium,Medium,Normal
+PT0127,Triage,Initial Assessment,13,Medium,Medium,Normal
+PT0127,Initial Assessment,Diagnostic Test,54,Medium,Medium,Normal
+PT0127,Diagnostic Test,Clinical Review,67,Medium,Medium,Normal
+PT0127,Clinical Review,Treatment,50,Medium,Medium,Normal
+PT0127,Treatment,Discharge Planning,6,Medium,Medium,Normal
+PT0127,Discharge Planning,Discharge,39,Medium,Medium,Normal
+PT0128,Registration,Triage,9,High,High,Normal
+PT0128,Triage,Initial Assessment,12,High,High,Normal
+PT0128,Initial Assessment,Diagnostic Test,87,High,High,Normal
+PT0128,Diagnostic Test,Clinical Review,17,High,High,Normal
+PT0128,Clinical Review,Treatment,12,High,High,Normal
+PT0128,Treatment,Discharge Planning,4,High,High,Normal
+PT0128,Discharge Planning,Discharge,28,High,High,Normal
+PT0129,Registration,Triage,4,Medium,Medium,Normal
+PT0129,Triage,Initial Assessment,24,Medium,Medium,Normal
+PT0129,Initial Assessment,Diagnostic Test,29,Medium,Medium,Normal
+PT0129,Diagnostic Test,Clinical Review,122,Medium,Medium,Normal
+PT0129,Clinical Review,Treatment,49,Medium,Medium,Normal
+PT0129,Treatment,Discharge Planning,12,Medium,Medium,Normal
+PT0129,Discharge Planning,Discharge,12,Medium,Medium,Normal
+PT0130,Registration,Triage,16,Low,Medium,Normal
+PT0130,Triage,Initial Assessment,35,Low,Medium,Normal
+PT0130,Initial Assessment,Diagnostic Test,48,Low,Medium,Normal
+PT0130,Diagnostic Test,Clinical Review,14,Low,Medium,Normal
+PT0130,Clinical Review,Treatment,23,Low,Medium,Normal
+PT0130,Treatment,Discharge Planning,6,Low,Medium,Normal
+PT0130,Discharge Planning,Discharge,11,Low,Medium,Normal
+PT0131,Registration,Triage,2,High,Low,Loop-back
+PT0131,Triage,Initial Assessment,28,High,Low,Loop-back
+PT0131,Initial Assessment,Diagnostic Test,33,High,Low,Loop-back
+PT0131,Diagnostic Test,Clinical Review,6,High,Low,Loop-back
+PT0131,Clinical Review,Initial Assessment,25,High,Low,Loop-back
+PT0131,Initial Assessment,Clinical Review,9,High,Low,Loop-back
+PT0131,Clinical Review,Treatment,68,High,Low,Loop-back
+PT0131,Treatment,Discharge Planning,5,High,Low,Loop-back
+PT0131,Discharge Planning,Discharge,16,High,Low,Loop-back
+PT0132,Registration,Triage,10,High,Low,Normal
+PT0132,Triage,Initial Assessment,37,High,Low,Normal
+PT0132,Initial Assessment,Diagnostic Test,32,High,Low,Normal
+PT0132,Diagnostic Test,Clinical Review,20,High,Low,Normal
+PT0132,Clinical Review,Treatment,1,High,Low,Normal
+PT0132,Treatment,Discharge Planning,5,High,Low,Normal
+PT0132,Discharge Planning,Discharge,10,High,Low,Normal
+PT0133,Registration,Triage,5,Medium,Low,Normal
+PT0133,Triage,Initial Assessment,14,Medium,Low,Normal
+PT0133,Initial Assessment,Diagnostic Test,5,Medium,Low,Normal
+PT0133,Diagnostic Test,Clinical Review,58,Medium,Low,Normal
+PT0133,Clinical Review,Treatment,41,Medium,Low,Normal
+PT0133,Treatment,Discharge Planning,19,Medium,Low,Normal
+PT0133,Discharge Planning,Discharge,11,Medium,Low,Normal
+PT0134,Registration,Triage,9,Low,Low,Loop-back
+PT0134,Triage,Initial Assessment,13,Low,Low,Loop-back
+PT0134,Initial Assessment,Diagnostic Test,11,Low,Low,Loop-back
+PT0134,Diagnostic Test,Clinical Review,77,Low,Low,Loop-back
+PT0134,Clinical Review,Diagnostic Test,17,Low,Low,Loop-back
+PT0134,Diagnostic Test,Clinical Review,12,Low,Low,Loop-back
+PT0134,Clinical Review,Treatment,25,Low,Low,Loop-back
+PT0134,Treatment,Discharge Planning,31,Low,Low,Loop-back
+PT0134,Discharge Planning,Discharge,12,Low,Low,Loop-back
+PT0135,Registration,Triage,8,Medium,Low,Normal
+PT0135,Triage,Initial Assessment,10,Medium,Low,Normal
+PT0135,Initial Assessment,Diagnostic Test,39,Medium,Low,Normal
+PT0135,Diagnostic Test,Clinical Review,68,Medium,Low,Normal
+PT0135,Clinical Review,Treatment,38,Medium,Low,Normal
+PT0135,Treatment,Discharge Planning,6,Medium,Low,Normal
+PT0135,Discharge Planning,Discharge,6,Medium,Low,Normal
+PT0136,Registration,Triage,21,High,High,Normal
+PT0136,Triage,Initial Assessment,22,High,High,Normal
+PT0136,Initial Assessment,Diagnostic Test,75,High,High,Normal
+PT0136,Diagnostic Test,Clinical Review,5,High,High,Normal
+PT0136,Clinical Review,Treatment,59,High,High,Normal
+PT0136,Treatment,Discharge Planning,28,High,High,Normal
+PT0136,Discharge Planning,Discharge,10,High,High,Normal
+PT0137,Registration,Triage,8,High,High,Loop-back
+PT0137,Triage,Initial Assessment,10,High,High,Loop-back
+PT0137,Initial Assessment,Diagnostic Test,29,High,High,Loop-back
+PT0137,Diagnostic Test,Clinical Review,56,High,High,Loop-back
+PT0137,Clinical Review,Diagnostic Test,34,High,High,Loop-back
+PT0137,Diagnostic Test,Clinical Review,37,High,High,Loop-back
+PT0137,Clinical Review,Treatment,8,High,High,Loop-back
+PT0137,Treatment,Discharge Planning,5,High,High,Loop-back
+PT0137,Discharge Planning,Discharge,28,High,High,Loop-back
+PT0138,Registration,Triage,21,Low,High,Normal
+PT0138,Triage,Initial Assessment,106,Low,High,Normal
+PT0138,Initial Assessment,Diagnostic Test,92,Low,High,Normal
+PT0138,Diagnostic Test,Clinical Review,15,Low,High,Normal
+PT0138,Clinical Review,Treatment,155,Low,High,Normal
+PT0138,Treatment,Discharge Planning,8,Low,High,Normal
+PT0138,Discharge Planning,Discharge,37,Low,High,Normal
+PT0139,Registration,Triage,10,Medium,High,Normal
+PT0139,Triage,Initial Assessment,34,Medium,High,Normal
+PT0139,Initial Assessment,Diagnostic Test,168,Medium,High,Normal
+PT0139,Diagnostic Test,Clinical Review,45,Medium,High,Normal
+PT0139,Clinical Review,Treatment,69,Medium,High,Normal
+PT0139,Treatment,Discharge Planning,43,Medium,High,Normal
+PT0139,Discharge Planning,Discharge,55,Medium,High,Normal
+PT0140,Registration,Triage,3,Low,Medium,Normal
+PT0140,Triage,Initial Assessment,6,Low,Medium,Normal
+PT0140,Initial Assessment,Diagnostic Test,88,Low,Medium,Normal
+PT0140,Diagnostic Test,Clinical Review,8,Low,Medium,Normal
+PT0140,Clinical Review,Treatment,88,Low,Medium,Normal
+PT0140,Treatment,Discharge Planning,18,Low,Medium,Normal
+PT0140,Discharge Planning,Discharge,14,Low,Medium,Normal
+PT0141,Registration,Triage,26,Low,High,Normal
+PT0141,Triage,Initial Assessment,18,Low,High,Normal
+PT0141,Initial Assessment,Diagnostic Test,21,Low,High,Normal
+PT0141,Diagnostic Test,Clinical Review,20,Low,High,Normal
+PT0141,Clinical Review,Treatment,101,Low,High,Normal
+PT0141,Treatment,Discharge Planning,20,Low,High,Normal
+PT0141,Discharge Planning,Discharge,29,Low,High,Normal
+PT0142,Registration,Triage,5,Low,Medium,Normal
+PT0142,Triage,Initial Assessment,33,Low,Medium,Normal
+PT0142,Initial Assessment,Diagnostic Test,142,Low,Medium,Normal
+PT0142,Diagnostic Test,Clinical Review,22,Low,Medium,Normal
+PT0142,Clinical Review,Treatment,62,Low,Medium,Normal
+PT0142,Treatment,Discharge Planning,4,Low,Medium,Normal
+PT0142,Discharge Planning,Discharge,13,Low,Medium,Normal
+PT0143,Registration,Triage,13,High,Low,Normal
+PT0143,Triage,Initial Assessment,36,High,Low,Normal
+PT0143,Initial Assessment,Diagnostic Test,23,High,Low,Normal
+PT0143,Diagnostic Test,Clinical Review,20,High,Low,Normal
+PT0143,Clinical Review,Treatment,20,High,Low,Normal
+PT0143,Treatment,Discharge Planning,10,High,Low,Normal
+PT0143,Discharge Planning,Discharge,7,High,Low,Normal
+PT0144,Registration,Triage,11,Medium,Low,Loop-back
+PT0144,Triage,Initial Assessment,19,Medium,Low,Loop-back
+PT0144,Initial Assessment,Diagnostic Test,33,Medium,Low,Loop-back
+PT0144,Diagnostic Test,Clinical Review,13,Medium,Low,Loop-back
+PT0144,Clinical Review,Initial Assessment,10,Medium,Low,Loop-back
+PT0144,Initial Assessment,Clinical Review,69,Medium,Low,Loop-back
+PT0144,Clinical Review,Treatment,38,Medium,Low,Loop-back
+PT0144,Treatment,Discharge Planning,14,Medium,Low,Loop-back
+PT0144,Discharge Planning,Discharge,23,Medium,Low,Loop-back
+PT0145,Registration,Triage,9,High,Medium,Normal
+PT0145,Triage,Initial Assessment,22,High,Medium,Normal
+PT0145,Initial Assessment,Diagnostic Test,8,High,Medium,Normal
+PT0145,Diagnostic Test,Clinical Review,15,High,Medium,Normal
+PT0145,Clinical Review,Treatment,54,High,Medium,Normal
+PT0145,Treatment,Discharge Planning,6,High,Medium,Normal
+PT0145,Discharge Planning,Discharge,1,High,Medium,Normal
+PT0146,Registration,Triage,2,Medium,Medium,Loop-back
+PT0146,Triage,Initial Assessment,30,Medium,Medium,Loop-back
+PT0146,Initial Assessment,Diagnostic Test,64,Medium,Medium,Loop-back
+PT0146,Diagnostic Test,Clinical Review,39,Medium,Medium,Loop-back
+PT0146,Clinical Review,Diagnostic Test,36,Medium,Medium,Loop-back
+PT0146,Diagnostic Test,Clinical Review,31,Medium,Medium,Loop-back
+PT0146,Clinical Review,Treatment,18,Medium,Medium,Loop-back
+PT0146,Treatment,Discharge Planning,2,Medium,Medium,Loop-back
+PT0146,Discharge Planning,Discharge,10,Medium,Medium,Loop-back
+PT0147,Registration,Triage,29,Low,High,Normal
+PT0147,Triage,Initial Assessment,42,Low,High,Normal
+PT0147,Initial Assessment,Diagnostic Test,26,Low,High,Normal
+PT0147,Diagnostic Test,Clinical Review,61,Low,High,Normal
+PT0147,Clinical Review,Treatment,100,Low,High,Normal
+PT0147,Treatment,Discharge Planning,15,Low,High,Normal
+PT0147,Discharge Planning,Discharge,50,Low,High,Normal
+PT0148,Registration,Triage,6,Medium,Low,Loop-back
+PT0148,Triage,Initial Assessment,26,Medium,Low,Loop-back
+PT0148,Initial Assessment,Diagnostic Test,41,Medium,Low,Loop-back
+PT0148,Diagnostic Test,Clinical Review,20,Medium,Low,Loop-back
+PT0148,Clinical Review,Initial Assessment,42,Medium,Low,Loop-back
+PT0148,Initial Assessment,Clinical Review,22,Medium,Low,Loop-back
+PT0148,Clinical Review,Treatment,24,Medium,Low,Loop-back
+PT0148,Treatment,Discharge Planning,21,Medium,Low,Loop-back
+PT0148,Discharge Planning,Discharge,23,Medium,Low,Loop-back
+PT0149,Registration,Triage,7,Medium,Low,Normal
+PT0149,Triage,Initial Assessment,8,Medium,Low,Normal
+PT0149,Initial Assessment,Diagnostic Test,3,Medium,Low,Normal
+PT0149,Diagnostic Test,Clinical Review,25,Medium,Low,Normal
+PT0149,Clinical Review,Treatment,12,Medium,Low,Normal
+PT0149,Treatment,Discharge Planning,14,Medium,Low,Normal
+PT0149,Discharge Planning,Discharge,9,Medium,Low,Normal
+PT0150,Registration,Triage,39,Medium,Low,Normal
+PT0150,Triage,Initial Assessment,17,Medium,Low,Normal
+PT0150,Initial Assessment,Diagnostic Test,38,Medium,Low,Normal
+PT0150,Diagnostic Test,Clinical Review,41,Medium,Low,Normal
+PT0150,Clinical Review,Treatment,26,Medium,Low,Normal
+PT0150,Treatment,Discharge Planning,5,Medium,Low,Normal
+PT0150,Discharge Planning,Discharge,4,Medium,Low,Normal
+PT0151,Registration,Triage,8,Medium,High,Normal
+PT0151,Triage,Initial Assessment,51,Medium,High,Normal
+PT0151,Initial Assessment,Diagnostic Test,67,Medium,High,Normal
+PT0151,Diagnostic Test,Clinical Review,34,Medium,High,Normal
+PT0151,Clinical Review,Treatment,14,Medium,High,Normal
+PT0151,Treatment,Discharge Planning,24,Medium,High,Normal
+PT0151,Discharge Planning,Discharge,19,Medium,High,Normal
+PT0152,Registration,Triage,12,Medium,High,Normal
+PT0152,Triage,Initial Assessment,32,Medium,High,Normal
+PT0152,Initial Assessment,Diagnostic Test,87,Medium,High,Normal
+PT0152,Diagnostic Test,Clinical Review,11,Medium,High,Normal
+PT0152,Clinical Review,Treatment,86,Medium,High,Normal
+PT0152,Treatment,Discharge Planning,7,Medium,High,Normal
+PT0152,Discharge Planning,Discharge,39,Medium,High,Normal
+PT0153,Registration,Triage,6,Low,Low,Normal
+PT0153,Triage,Initial Assessment,8,Low,Low,Normal
+PT0153,Initial Assessment,Diagnostic Test,14,Low,Low,Normal
+PT0153,Diagnostic Test,Clinical Review,35,Low,Low,Normal
+PT0153,Clinical Review,Treatment,39,Low,Low,Normal
+PT0153,Treatment,Discharge Planning,26,Low,Low,Normal
+PT0153,Discharge Planning,Discharge,25,Low,Low,Normal
+PT0154,Registration,Triage,7,Low,High,Normal
+PT0154,Triage,Initial Assessment,38,Low,High,Normal
+PT0154,Initial Assessment,Diagnostic Test,8,Low,High,Normal
+PT0154,Diagnostic Test,Clinical Review,29,Low,High,Normal
+PT0154,Clinical Review,Treatment,235,Low,High,Normal
+PT0154,Treatment,Discharge Planning,44,Low,High,Normal
+PT0154,Discharge Planning,Discharge,52,Low,High,Normal
+PT0155,Registration,Triage,1,Medium,High,Loop-back
+PT0155,Triage,Initial Assessment,84,Medium,High,Loop-back
+PT0155,Initial Assessment,Diagnostic Test,63,Medium,High,Loop-back
+PT0155,Diagnostic Test,Clinical Review,76,Medium,High,Loop-back
+PT0155,Clinical Review,Initial Assessment,31,Medium,High,Loop-back
+PT0155,Initial Assessment,Clinical Review,33,Medium,High,Loop-back
+PT0155,Clinical Review,Treatment,184,Medium,High,Loop-back
+PT0155,Treatment,Discharge Planning,36,Medium,High,Loop-back
+PT0155,Discharge Planning,Discharge,40,Medium,High,Loop-back
+PT0156,Registration,Triage,15,Low,Medium,Normal
+PT0156,Triage,Initial Assessment,22,Low,Medium,Normal
+PT0156,Initial Assessment,Diagnostic Test,11,Low,Medium,Normal
+PT0156,Diagnostic Test,Clinical Review,41,Low,Medium,Normal
+PT0156,Clinical Review,Treatment,72,Low,Medium,Normal
+PT0156,Treatment,Discharge Planning,18,Low,Medium,Normal
+PT0156,Discharge Planning,Discharge,20,Low,Medium,Normal
+PT0157,Registration,Triage,7,Low,Medium,Normal
+PT0157,Triage,Initial Assessment,41,Low,Medium,Normal
+PT0157,Initial Assessment,Diagnostic Test,76,Low,Medium,Normal
+PT0157,Diagnostic Test,Clinical Review,55,Low,Medium,Normal
+PT0157,Clinical Review,Treatment,94,Low,Medium,Normal
+PT0157,Treatment,Discharge Planning,9,Low,Medium,Normal
+PT0157,Discharge Planning,Discharge,11,Low,Medium,Normal
+PT0158,Registration,Triage,24,Low,Medium,Normal
+PT0158,Triage,Initial Assessment,62,Low,Medium,Normal
+PT0158,Initial Assessment,Diagnostic Test,119,Low,Medium,Normal
+PT0158,Diagnostic Test,Clinical Review,5,Low,Medium,Normal
+PT0158,Clinical Review,Treatment,71,Low,Medium,Normal
+PT0158,Treatment,Discharge Planning,10,Low,Medium,Normal
+PT0158,Discharge Planning,Discharge,22,Low,Medium,Normal
+PT0159,Registration,Triage,2,High,Low,Normal
+PT0159,Triage,Initial Assessment,20,High,Low,Normal
+PT0159,Initial Assessment,Diagnostic Test,33,High,Low,Normal
+PT0159,Diagnostic Test,Clinical Review,7,High,Low,Normal
+PT0159,Clinical Review,Treatment,19,High,Low,Normal
+PT0159,Treatment,Discharge Planning,6,High,Low,Normal
+PT0159,Discharge Planning,Discharge,5,High,Low,Normal
+PT0160,Registration,Triage,15,Low,Medium,Loop-back
+PT0160,Triage,Initial Assessment,62,Low,Medium,Loop-back
+PT0160,Initial Assessment,Diagnostic Test,30,Low,Medium,Loop-back
+PT0160,Diagnostic Test,Clinical Review,14,Low,Medium,Loop-back
+PT0160,Clinical Review,Diagnostic Test,72,Low,Medium,Loop-back
+PT0160,Diagnostic Test,Clinical Review,39,Low,Medium,Loop-back
+PT0160,Clinical Review,Treatment,73,Low,Medium,Loop-back
+PT0160,Treatment,Discharge Planning,8,Low,Medium,Loop-back
+PT0160,Discharge Planning,Discharge,6,Low,Medium,Loop-back
+PT0161,Registration,Triage,28,Medium,High,Normal
+PT0161,Triage,Initial Assessment,30,Medium,High,Normal
+PT0161,Initial Assessment,Diagnostic Test,58,Medium,High,Normal
+PT0161,Diagnostic Test,Clinical Review,13,Medium,High,Normal
+PT0161,Clinical Review,Treatment,83,Medium,High,Normal
+PT0161,Treatment,Discharge Planning,69,Medium,High,Normal
+PT0161,Discharge Planning,Discharge,39,Medium,High,Normal
+PT0162,Registration,Triage,4,Low,Low,Normal
+PT0162,Triage,Initial Assessment,52,Low,Low,Normal
+PT0162,Initial Assessment,Diagnostic Test,19,Low,Low,Normal
+PT0162,Diagnostic Test,Clinical Review,26,Low,Low,Normal
+PT0162,Clinical Review,Treatment,50,Low,Low,Normal
+PT0162,Treatment,Discharge Planning,21,Low,Low,Normal
+PT0162,Discharge Planning,Discharge,20,Low,Low,Normal
+PT0163,Registration,Triage,21,Low,Medium,Normal
+PT0163,Triage,Initial Assessment,45,Low,Medium,Normal
+PT0163,Initial Assessment,Diagnostic Test,41,Low,Medium,Normal
+PT0163,Diagnostic Test,Clinical Review,53,Low,Medium,Normal
+PT0163,Clinical Review,Treatment,64,Low,Medium,Normal
+PT0163,Treatment,Discharge Planning,36,Low,Medium,Normal
+PT0163,Discharge Planning,Discharge,17,Low,Medium,Normal
+PT0164,Registration,Triage,2,Low,High,Loop-back
+PT0164,Triage,Initial Assessment,40,Low,High,Loop-back
+PT0164,Initial Assessment,Diagnostic Test,89,Low,High,Loop-back
+PT0164,Diagnostic Test,Clinical Review,38,Low,High,Loop-back
+PT0164,Clinical Review,Diagnostic Test,70,Low,High,Loop-back
+PT0164,Diagnostic Test,Clinical Review,46,Low,High,Loop-back
+PT0164,Clinical Review,Treatment,101,Low,High,Loop-back
+PT0164,Treatment,Discharge Planning,26,Low,High,Loop-back
+PT0164,Discharge Planning,Discharge,33,Low,High,Loop-back
+PT0165,Registration,Triage,2,Medium,High,Normal
+PT0165,Triage,Initial Assessment,16,Medium,High,Normal
+PT0165,Initial Assessment,Diagnostic Test,127,Medium,High,Normal
+PT0165,Diagnostic Test,Clinical Review,31,Medium,High,Normal
+PT0165,Clinical Review,Treatment,128,Medium,High,Normal
+PT0165,Treatment,Discharge Planning,34,Medium,High,Normal
+PT0165,Discharge Planning,Discharge,11,Medium,High,Normal
+PT0166,Registration,Triage,11,Low,Medium,Loop-back
+PT0166,Triage,Initial Assessment,5,Low,Medium,Loop-back
+PT0166,Initial Assessment,Diagnostic Test,4,Low,Medium,Loop-back
+PT0166,Diagnostic Test,Clinical Review,26,Low,Medium,Loop-back
+PT0166,Clinical Review,Diagnostic Test,7,Low,Medium,Loop-back
+PT0166,Diagnostic Test,Clinical Review,50,Low,Medium,Loop-back
+PT0166,Clinical Review,Treatment,8,Low,Medium,Loop-back
+PT0166,Treatment,Discharge Planning,30,Low,Medium,Loop-back
+PT0166,Discharge Planning,Discharge,8,Low,Medium,Loop-back
+PT0167,Registration,Triage,3,High,Low,Normal
+PT0167,Triage,Initial Assessment,8,High,Low,Normal
+PT0167,Initial Assessment,Diagnostic Test,41,High,Low,Normal
+PT0167,Diagnostic Test,Clinical Review,68,High,Low,Normal
+PT0167,Clinical Review,Treatment,52,High,Low,Normal
+PT0167,Treatment,Discharge Planning,3,High,Low,Normal
+PT0167,Discharge Planning,Discharge,11,High,Low,Normal
+PT0168,Registration,Triage,5,Low,Medium,Normal
+PT0168,Triage,Initial Assessment,14,Low,Medium,Normal
+PT0168,Initial Assessment,Diagnostic Test,65,Low,Medium,Normal
+PT0168,Diagnostic Test,Clinical Review,15,Low,Medium,Normal
+PT0168,Clinical Review,Treatment,152,Low,Medium,Normal
+PT0168,Treatment,Discharge Planning,39,Low,Medium,Normal
+PT0168,Discharge Planning,Discharge,23,Low,Medium,Normal
+PT0169,Registration,Triage,49,Low,Medium,Loop-back
+PT0169,Triage,Initial Assessment,31,Low,Medium,Loop-back
+PT0169,Initial Assessment,Diagnostic Test,21,Low,Medium,Loop-back
+PT0169,Diagnostic Test,Clinical Review,27,Low,Medium,Loop-back
+PT0169,Clinical Review,Diagnostic Test,67,Low,Medium,Loop-back
+PT0169,Diagnostic Test,Clinical Review,33,Low,Medium,Loop-back
+PT0169,Clinical Review,Treatment,13,Low,Medium,Loop-back
+PT0169,Treatment,Discharge Planning,23,Low,Medium,Loop-back
+PT0169,Discharge Planning,Discharge,38,Low,Medium,Loop-back
+PT0170,Registration,Triage,25,Medium,Low,Normal
+PT0170,Triage,Initial Assessment,18,Medium,Low,Normal
+PT0170,Initial Assessment,Diagnostic Test,15,Medium,Low,Normal
+PT0170,Diagnostic Test,Clinical Review,16,Medium,Low,Normal
+PT0170,Clinical Review,Treatment,83,Medium,Low,Normal
+PT0170,Treatment,Discharge Planning,12,Medium,Low,Normal
+PT0170,Discharge Planning,Discharge,9,Medium,Low,Normal
+PT0171,Registration,Triage,17,Low,High,Normal
+PT0171,Triage,Initial Assessment,113,Low,High,Normal
+PT0171,Initial Assessment,Diagnostic Test,96,Low,High,Normal
+PT0171,Diagnostic Test,Clinical Review,73,Low,High,Normal
+PT0171,Clinical Review,Treatment,73,Low,High,Normal
+PT0171,Treatment,Discharge Planning,28,Low,High,Normal
+PT0171,Discharge Planning,Discharge,8,Low,High,Normal
+PT0172,Registration,Triage,10,Medium,Medium,Loop-back
+PT0172,Triage,Initial Assessment,39,Medium,Medium,Loop-back
+PT0172,Initial Assessment,Diagnostic Test,9,Medium,Medium,Loop-back
+PT0172,Diagnostic Test,Clinical Review,5,Medium,Medium,Loop-back
+PT0172,Clinical Review,Diagnostic Test,201,Medium,Medium,Loop-back
+PT0172,Diagnostic Test,Clinical Review,18,Medium,Medium,Loop-back
+PT0172,Clinical Review,Treatment,19,Medium,Medium,Loop-back
+PT0172,Treatment,Discharge Planning,14,Medium,Medium,Loop-back
+PT0172,Discharge Planning,Discharge,48,Medium,Medium,Loop-back
+PT0173,Registration,Triage,11,Low,Medium,Loop-back
+PT0173,Triage,Initial Assessment,17,Low,Medium,Loop-back
+PT0173,Initial Assessment,Diagnostic Test,104,Low,Medium,Loop-back
+PT0173,Diagnostic Test,Clinical Review,2,Low,Medium,Loop-back
+PT0173,Clinical Review,Diagnostic Test,46,Low,Medium,Loop-back
+PT0173,Diagnostic Test,Clinical Review,15,Low,Medium,Loop-back
+PT0173,Clinical Review,Treatment,56,Low,Medium,Loop-back
+PT0173,Treatment,Discharge Planning,41,Low,Medium,Loop-back
+PT0173,Discharge Planning,Discharge,15,Low,Medium,Loop-back
+PT0174,Registration,Triage,2,High,High,Loop-back
+PT0174,Triage,Initial Assessment,4,High,High,Loop-back
+PT0174,Initial Assessment,Diagnostic Test,11,High,High,Loop-back
+PT0174,Diagnostic Test,Clinical Review,54,High,High,Loop-back
+PT0174,Clinical Review,Initial Assessment,61,High,High,Loop-back
+PT0174,Initial Assessment,Clinical Review,24,High,High,Loop-back
+PT0174,Clinical Review,Treatment,155,High,High,Loop-back
+PT0174,Treatment,Discharge Planning,35,High,High,Loop-back
+PT0174,Discharge Planning,Discharge,27,High,High,Loop-back
+PT0175,Registration,Triage,16,High,High,Normal
+PT0175,Triage,Initial Assessment,20,High,High,Normal
+PT0175,Initial Assessment,Diagnostic Test,41,High,High,Normal
+PT0175,Diagnostic Test,Clinical Review,85,High,High,Normal
+PT0175,Clinical Review,Treatment,16,High,High,Normal
+PT0175,Treatment,Discharge Planning,36,High,High,Normal
+PT0175,Discharge Planning,Discharge,53,High,High,Normal
+PT0176,Registration,Triage,3,Low,Low,Normal
+PT0176,Triage,Initial Assessment,61,Low,Low,Normal
+PT0176,Initial Assessment,Diagnostic Test,23,Low,Low,Normal
+PT0176,Diagnostic Test,Clinical Review,49,Low,Low,Normal
+PT0176,Clinical Review,Treatment,28,Low,Low,Normal
+PT0176,Treatment,Discharge Planning,21,Low,Low,Normal
+PT0176,Discharge Planning,Discharge,30,Low,Low,Normal
+PT0177,Registration,Triage,6,Low,High,Loop-back
+PT0177,Triage,Initial Assessment,76,Low,High,Loop-back
+PT0177,Initial Assessment,Diagnostic Test,16,Low,High,Loop-back
+PT0177,Diagnostic Test,Clinical Review,65,Low,High,Loop-back
+PT0177,Clinical Review,Diagnostic Test,107,Low,High,Loop-back
+PT0177,Diagnostic Test,Clinical Review,20,Low,High,Loop-back
+PT0177,Clinical Review,Treatment,197,Low,High,Loop-back
+PT0177,Treatment,Discharge Planning,63,Low,High,Loop-back
+PT0177,Discharge Planning,Discharge,3,Low,High,Loop-back
+PT0178,Registration,Triage,6,Low,Low,Loop-back
+PT0178,Triage,Initial Assessment,12,Low,Low,Loop-back
+PT0178,Initial Assessment,Diagnostic Test,44,Low,Low,Loop-back
+PT0178,Diagnostic Test,Clinical Review,87,Low,Low,Loop-back
+PT0178,Clinical Review,Initial Assessment,7,Low,Low,Loop-back
+PT0178,Initial Assessment,Clinical Review,32,Low,Low,Loop-back
+PT0178,Clinical Review,Treatment,14,Low,Low,Loop-back
+PT0178,Treatment,Discharge Planning,13,Low,Low,Loop-back
+PT0178,Discharge Planning,Discharge,13,Low,Low,Loop-back
+PT0179,Registration,Triage,9,Medium,Medium,Normal
+PT0179,Triage,Initial Assessment,10,Medium,Medium,Normal
+PT0179,Initial Assessment,Diagnostic Test,18,Medium,Medium,Normal
+PT0179,Diagnostic Test,Clinical Review,6,Medium,Medium,Normal
+PT0179,Clinical Review,Treatment,25,Medium,Medium,Normal
+PT0179,Treatment,Discharge Planning,44,Medium,Medium,Normal
+PT0179,Discharge Planning,Discharge,12,Medium,Medium,Normal
+PT0180,Registration,Triage,16,Medium,Medium,Normal
+PT0180,Triage,Initial Assessment,42,Medium,Medium,Normal
+PT0180,Initial Assessment,Diagnostic Test,63,Medium,Medium,Normal
+PT0180,Diagnostic Test,Clinical Review,24,Medium,Medium,Normal
+PT0180,Clinical Review,Treatment,27,Medium,Medium,Normal
+PT0180,Treatment,Discharge Planning,44,Medium,Medium,Normal
+PT0180,Discharge Planning,Discharge,10,Medium,Medium,Normal
+PT0181,Registration,Triage,10,High,Low,Normal
+PT0181,Triage,Initial Assessment,5,High,Low,Normal
+PT0181,Initial Assessment,Diagnostic Test,11,High,Low,Normal
+PT0181,Diagnostic Test,Clinical Review,33,High,Low,Normal
+PT0181,Clinical Review,Treatment,124,High,Low,Normal
+PT0181,Treatment,Discharge Planning,30,High,Low,Normal
+PT0181,Discharge Planning,Discharge,3,High,Low,Normal
+PT0182,Registration,Triage,13,High,Low,Normal
+PT0182,Triage,Initial Assessment,2,High,Low,Normal
+PT0182,Initial Assessment,Diagnostic Test,12,High,Low,Normal
+PT0182,Diagnostic Test,Clinical Review,6,High,Low,Normal
+PT0182,Clinical Review,Treatment,17,High,Low,Normal
+PT0182,Treatment,Discharge Planning,24,High,Low,Normal
+PT0182,Discharge Planning,Discharge,24,High,Low,Normal
+PT0183,Registration,Triage,18,Low,High,Normal
+PT0183,Triage,Initial Assessment,36,Low,High,Normal
+PT0183,Initial Assessment,Diagnostic Test,146,Low,High,Normal
+PT0183,Diagnostic Test,Clinical Review,10,Low,High,Normal
+PT0183,Clinical Review,Treatment,157,Low,High,Normal
+PT0183,Treatment,Discharge Planning,51,Low,High,Normal
+PT0183,Discharge Planning,Discharge,32,Low,High,Normal
+PT0184,Registration,Triage,14,Low,High,Loop-back
+PT0184,Triage,Initial Assessment,19,Low,High,Loop-back
+PT0184,Initial Assessment,Diagnostic Test,60,Low,High,Loop-back
+PT0184,Diagnostic Test,Clinical Review,21,Low,High,Loop-back
+PT0184,Clinical Review,Initial Assessment,138,Low,High,Loop-back
+PT0184,Initial Assessment,Clinical Review,54,Low,High,Loop-back
+PT0184,Clinical Review,Treatment,67,Low,High,Loop-back
+PT0184,Treatment,Discharge Planning,12,Low,High,Loop-back
+PT0184,Discharge Planning,Discharge,6,Low,High,Loop-back
+PT0185,Registration,Triage,8,High,High,Normal
+PT0185,Triage,Initial Assessment,40,High,High,Normal
+PT0185,Initial Assessment,Diagnostic Test,10,High,High,Normal
+PT0185,Diagnostic Test,Clinical Review,25,High,High,Normal
+PT0185,Clinical Review,Treatment,80,High,High,Normal
+PT0185,Treatment,Discharge Planning,4,High,High,Normal
+PT0185,Discharge Planning,Discharge,49,High,High,Normal
+PT0186,Registration,Triage,20,High,High,Normal
+PT0186,Triage,Initial Assessment,11,High,High,Normal
+PT0186,Initial Assessment,Diagnostic Test,47,High,High,Normal
+PT0186,Diagnostic Test,Clinical Review,52,High,High,Normal
+PT0186,Clinical Review,Treatment,97,High,High,Normal
+PT0186,Treatment,Discharge Planning,57,High,High,Normal
+PT0186,Discharge Planning,Discharge,27,High,High,Normal
+PT0187,Registration,Triage,18,Medium,Medium,Loop-back
+PT0187,Triage,Initial Assessment,39,Medium,Medium,Loop-back
+PT0187,Initial Assessment,Diagnostic Test,39,Medium,Medium,Loop-back
+PT0187,Diagnostic Test,Clinical Review,35,Medium,Medium,Loop-back
+PT0187,Clinical Review,Diagnostic Test,17,Medium,Medium,Loop-back
+PT0187,Diagnostic Test,Clinical Review,24,Medium,Medium,Loop-back
+PT0187,Clinical Review,Treatment,121,Medium,Medium,Loop-back
+PT0187,Treatment,Discharge Planning,19,Medium,Medium,Loop-back
+PT0187,Discharge Planning,Discharge,11,Medium,Medium,Loop-back
+PT0188,Registration,Triage,26,High,Medium,Normal
+PT0188,Triage,Initial Assessment,28,High,Medium,Normal
+PT0188,Initial Assessment,Diagnostic Test,27,High,Medium,Normal
+PT0188,Diagnostic Test,Clinical Review,12,High,Medium,Normal
+PT0188,Clinical Review,Treatment,8,High,Medium,Normal
+PT0188,Treatment,Discharge Planning,17,High,Medium,Normal
+PT0188,Discharge Planning,Discharge,16,High,Medium,Normal
+PT0189,Registration,Triage,31,Medium,High,Loop-back
+PT0189,Triage,Initial Assessment,12,Medium,High,Loop-back
+PT0189,Initial Assessment,Diagnostic Test,12,Medium,High,Loop-back
+PT0189,Diagnostic Test,Clinical Review,30,Medium,High,Loop-back
+PT0189,Clinical Review,Diagnostic Test,51,Medium,High,Loop-back
+PT0189,Diagnostic Test,Clinical Review,25,Medium,High,Loop-back
+PT0189,Clinical Review,Treatment,43,Medium,High,Loop-back
+PT0189,Treatment,Discharge Planning,40,Medium,High,Loop-back
+PT0189,Discharge Planning,Discharge,47,Medium,High,Loop-back
+PT0190,Registration,Triage,5,High,Medium,Normal
+PT0190,Triage,Initial Assessment,3,High,Medium,Normal
+PT0190,Initial Assessment,Diagnostic Test,28,High,Medium,Normal
+PT0190,Diagnostic Test,Clinical Review,37,High,Medium,Normal
+PT0190,Clinical Review,Treatment,39,High,Medium,Normal
+PT0190,Treatment,Discharge Planning,9,High,Medium,Normal
+PT0190,Discharge Planning,Discharge,4,High,Medium,Normal
+PT0191,Registration,Triage,13,Medium,High,Normal
+PT0191,Triage,Initial Assessment,32,Medium,High,Normal
+PT0191,Initial Assessment,Diagnostic Test,54,Medium,High,Normal
+PT0191,Diagnostic Test,Clinical Review,38,Medium,High,Normal
+PT0191,Clinical Review,Treatment,34,Medium,High,Normal
+PT0191,Treatment,Discharge Planning,19,Medium,High,Normal
+PT0191,Discharge Planning,Discharge,15,Medium,High,Normal
+PT0192,Registration,Triage,14,Medium,Medium,Normal
+PT0192,Triage,Initial Assessment,14,Medium,Medium,Normal
+PT0192,Initial Assessment,Diagnostic Test,15,Medium,Medium,Normal
+PT0192,Diagnostic Test,Clinical Review,14,Medium,Medium,Normal
+PT0192,Clinical Review,Treatment,31,Medium,Medium,Normal
+PT0192,Treatment,Discharge Planning,65,Medium,Medium,Normal
+PT0192,Discharge Planning,Discharge,8,Medium,Medium,Normal
+PT0193,Registration,Triage,5,Medium,High,Normal
+PT0193,Triage,Initial Assessment,31,Medium,High,Normal
+PT0193,Initial Assessment,Diagnostic Test,76,Medium,High,Normal
+PT0193,Diagnostic Test,Clinical Review,35,Medium,High,Normal
+PT0193,Clinical Review,Treatment,156,Medium,High,Normal
+PT0193,Treatment,Discharge Planning,10,Medium,High,Normal
+PT0193,Discharge Planning,Discharge,17,Medium,High,Normal
+PT0194,Registration,Triage,4,Low,Medium,Normal
+PT0194,Triage,Initial Assessment,46,Low,Medium,Normal
+PT0194,Initial Assessment,Diagnostic Test,46,Low,Medium,Normal
+PT0194,Diagnostic Test,Clinical Review,24,Low,Medium,Normal
+PT0194,Clinical Review,Treatment,125,Low,Medium,Normal
+PT0194,Treatment,Discharge Planning,32,Low,Medium,Normal
+PT0194,Discharge Planning,Discharge,53,Low,Medium,Normal
+PT0195,Registration,Triage,43,Medium,High,Normal
+PT0195,Triage,Initial Assessment,10,Medium,High,Normal
+PT0195,Initial Assessment,Diagnostic Test,74,Medium,High,Normal
+PT0195,Diagnostic Test,Clinical Review,42,Medium,High,Normal
+PT0195,Clinical Review,Treatment,32,Medium,High,Normal
+PT0195,Treatment,Discharge Planning,20,Medium,High,Normal
+PT0195,Discharge Planning,Discharge,39,Medium,High,Normal
+PT0196,Registration,Triage,49,Low,High,Normal
+PT0196,Triage,Initial Assessment,40,Low,High,Normal
+PT0196,Initial Assessment,Diagnostic Test,31,Low,High,Normal
+PT0196,Diagnostic Test,Clinical Review,104,Low,High,Normal
+PT0196,Clinical Review,Treatment,53,Low,High,Normal
+PT0196,Treatment,Discharge Planning,9,Low,High,Normal
+PT0196,Discharge Planning,Discharge,32,Low,High,Normal
+PT0197,Registration,Triage,7,Medium,Medium,Normal
+PT0197,Triage,Initial Assessment,37,Medium,Medium,Normal
+PT0197,Initial Assessment,Diagnostic Test,60,Medium,Medium,Normal
+PT0197,Diagnostic Test,Clinical Review,30,Medium,Medium,Normal
+PT0197,Clinical Review,Treatment,27,Medium,Medium,Normal
+PT0197,Treatment,Discharge Planning,18,Medium,Medium,Normal
+PT0197,Discharge Planning,Discharge,18,Medium,Medium,Normal
+PT0198,Registration,Triage,21,Low,Medium,Normal
+PT0198,Triage,Initial Assessment,34,Low,Medium,Normal
+PT0198,Initial Assessment,Diagnostic Test,120,Low,Medium,Normal
+PT0198,Diagnostic Test,Clinical Review,26,Low,Medium,Normal
+PT0198,Clinical Review,Treatment,107,Low,Medium,Normal
+PT0198,Treatment,Discharge Planning,23,Low,Medium,Normal
+PT0198,Discharge Planning,Discharge,7,Low,Medium,Normal
+PT0199,Registration,Triage,9,Low,Medium,Normal
+PT0199,Triage,Initial Assessment,42,Low,Medium,Normal
+PT0199,Initial Assessment,Diagnostic Test,86,Low,Medium,Normal
+PT0199,Diagnostic Test,Clinical Review,56,Low,Medium,Normal
+PT0199,Clinical Review,Treatment,53,Low,Medium,Normal
+PT0199,Treatment,Discharge Planning,17,Low,Medium,Normal
+PT0199,Discharge Planning,Discharge,7,Low,Medium,Normal
+PT0200,Registration,Triage,5,High,High,Normal
+PT0200,Triage,Initial Assessment,10,High,High,Normal
+PT0200,Initial Assessment,Diagnostic Test,20,High,High,Normal
+PT0200,Diagnostic Test,Clinical Review,13,High,High,Normal
+PT0200,Clinical Review,Treatment,68,High,High,Normal
+PT0200,Treatment,Discharge Planning,4,High,High,Normal
+PT0200,Discharge Planning,Discharge,12,High,High,Normal
+PT0201,Registration,Triage,8,Medium,Medium,Loop-back
+PT0201,Triage,Initial Assessment,40,Medium,Medium,Loop-back
+PT0201,Initial Assessment,Diagnostic Test,25,Medium,Medium,Loop-back
+PT0201,Diagnostic Test,Clinical Review,27,Medium,Medium,Loop-back
+PT0201,Clinical Review,Diagnostic Test,45,Medium,Medium,Loop-back
+PT0201,Diagnostic Test,Clinical Review,49,Medium,Medium,Loop-back
+PT0201,Clinical Review,Treatment,129,Medium,Medium,Loop-back
+PT0201,Treatment,Discharge Planning,19,Medium,Medium,Loop-back
+PT0201,Discharge Planning,Discharge,13,Medium,Medium,Loop-back
+PT0202,Registration,Triage,1,High,Low,Normal
+PT0202,Triage,Initial Assessment,31,High,Low,Normal
+PT0202,Initial Assessment,Diagnostic Test,3,High,Low,Normal
+PT0202,Diagnostic Test,Clinical Review,3,High,Low,Normal
+PT0202,Clinical Review,Treatment,7,High,Low,Normal
+PT0202,Treatment,Discharge Planning,18,High,Low,Normal
+PT0202,Discharge Planning,Discharge,10,High,Low,Normal
+PT0203,Registration,Triage,20,Medium,High,Normal
+PT0203,Triage,Initial Assessment,29,Medium,High,Normal
+PT0203,Initial Assessment,Diagnostic Test,11,Medium,High,Normal
+PT0203,Diagnostic Test,Clinical Review,26,Medium,High,Normal
+PT0203,Clinical Review,Treatment,36,Medium,High,Normal
+PT0203,Treatment,Discharge Planning,31,Medium,High,Normal
+PT0203,Discharge Planning,Discharge,37,Medium,High,Normal
+PT0204,Registration,Triage,15,High,Low,Normal
+PT0204,Triage,Initial Assessment,4,High,Low,Normal
+PT0204,Initial Assessment,Diagnostic Test,6,High,Low,Normal
+PT0204,Diagnostic Test,Clinical Review,53,High,Low,Normal
+PT0204,Clinical Review,Treatment,37,High,Low,Normal
+PT0204,Treatment,Discharge Planning,32,High,Low,Normal
+PT0204,Discharge Planning,Discharge,1,High,Low,Normal
+PT0205,Registration,Triage,8,High,High,Normal
+PT0205,Triage,Initial Assessment,33,High,High,Normal
+PT0205,Initial Assessment,Diagnostic Test,38,High,High,Normal
+PT0205,Diagnostic Test,Clinical Review,24,High,High,Normal
+PT0205,Clinical Review,Treatment,87,High,High,Normal
+PT0205,Treatment,Discharge Planning,19,High,High,Normal
+PT0205,Discharge Planning,Discharge,15,High,High,Normal
+PT0206,Registration,Triage,7,High,Medium,Normal
+PT0206,Triage,Initial Assessment,5,High,Medium,Normal
+PT0206,Initial Assessment,Diagnostic Test,23,High,Medium,Normal
+PT0206,Diagnostic Test,Clinical Review,31,High,Medium,Normal
+PT0206,Clinical Review,Treatment,34,High,Medium,Normal
+PT0206,Treatment,Discharge Planning,5,High,Medium,Normal
+PT0206,Discharge Planning,Discharge,12,High,Medium,Normal
+PT0207,Registration,Triage,11,Low,High,Normal
+PT0207,Triage,Initial Assessment,28,Low,High,Normal
+PT0207,Initial Assessment,Diagnostic Test,38,Low,High,Normal
+PT0207,Diagnostic Test,Clinical Review,86,Low,High,Normal
+PT0207,Clinical Review,Treatment,50,Low,High,Normal
+PT0207,Treatment,Discharge Planning,45,Low,High,Normal
+PT0207,Discharge Planning,Discharge,28,Low,High,Normal
+PT0208,Registration,Triage,10,Low,Low,Normal
+PT0208,Triage,Initial Assessment,34,Low,Low,Normal
+PT0208,Initial Assessment,Diagnostic Test,91,Low,Low,Normal
+PT0208,Diagnostic Test,Clinical Review,17,Low,Low,Normal
+PT0208,Clinical Review,Treatment,33,Low,Low,Normal
+PT0208,Treatment,Discharge Planning,22,Low,Low,Normal
+PT0208,Discharge Planning,Discharge,19,Low,Low,Normal
+PT0209,Registration,Triage,3,Low,Low,Normal
+PT0209,Triage,Initial Assessment,17,Low,Low,Normal
+PT0209,Initial Assessment,Diagnostic Test,50,Low,Low,Normal
+PT0209,Diagnostic Test,Clinical Review,13,Low,Low,Normal
+PT0209,Clinical Review,Treatment,37,Low,Low,Normal
+PT0209,Treatment,Discharge Planning,12,Low,Low,Normal
+PT0209,Discharge Planning,Discharge,9,Low,Low,Normal
+PT0210,Registration,Triage,4,Medium,High,Loop-back
+PT0210,Triage,Initial Assessment,26,Medium,High,Loop-back
+PT0210,Initial Assessment,Diagnostic Test,67,Medium,High,Loop-back
+PT0210,Diagnostic Test,Clinical Review,130,Medium,High,Loop-back
+PT0210,Clinical Review,Diagnostic Test,69,Medium,High,Loop-back
+PT0210,Diagnostic Test,Clinical Review,13,Medium,High,Loop-back
+PT0210,Clinical Review,Treatment,27,Medium,High,Loop-back
+PT0210,Treatment,Discharge Planning,31,Medium,High,Loop-back
+PT0210,Discharge Planning,Discharge,53,Medium,High,Loop-back
+PT0211,Registration,Triage,6,Medium,Medium,Normal
+PT0211,Triage,Initial Assessment,73,Medium,Medium,Normal
+PT0211,Initial Assessment,Diagnostic Test,9,Medium,Medium,Normal
+PT0211,Diagnostic Test,Clinical Review,105,Medium,Medium,Normal
+PT0211,Clinical Review,Treatment,19,Medium,Medium,Normal
+PT0211,Treatment,Discharge Planning,4,Medium,Medium,Normal
+PT0211,Discharge Planning,Discharge,9,Medium,Medium,Normal
+PT0212,Registration,Triage,4,High,Low,Normal
+PT0212,Triage,Initial Assessment,7,High,Low,Normal
+PT0212,Initial Assessment,Diagnostic Test,17,High,Low,Normal
+PT0212,Diagnostic Test,Clinical Review,17,High,Low,Normal
+PT0212,Clinical Review,Treatment,62,High,Low,Normal
+PT0212,Treatment,Discharge Planning,10,High,Low,Normal
+PT0212,Discharge Planning,Discharge,6,High,Low,Normal
+PT0213,Registration,Triage,5,High,Medium,Normal
+PT0213,Triage,Initial Assessment,71,High,Medium,Normal
+PT0213,Initial Assessment,Diagnostic Test,59,High,Medium,Normal
+PT0213,Diagnostic Test,Clinical Review,8,High,Medium,Normal
+PT0213,Clinical Review,Treatment,31,High,Medium,Normal
+PT0213,Treatment,Discharge Planning,11,High,Medium,Normal
+PT0213,Discharge Planning,Discharge,10,High,Medium,Normal
+PT0214,Registration,Triage,12,Medium,Low,Normal
+PT0214,Triage,Initial Assessment,39,Medium,Low,Normal
+PT0214,Initial Assessment,Diagnostic Test,36,Medium,Low,Normal
+PT0214,Diagnostic Test,Clinical Review,33,Medium,Low,Normal
+PT0214,Clinical Review,Treatment,17,Medium,Low,Normal
+PT0214,Treatment,Discharge Planning,12,Medium,Low,Normal
+PT0214,Discharge Planning,Discharge,8,Medium,Low,Normal
+PT0215,Registration,Triage,5,High,High,Loop-back
+PT0215,Triage,Initial Assessment,1,High,High,Loop-back
+PT0215,Initial Assessment,Diagnostic Test,37,High,High,Loop-back
+PT0215,Diagnostic Test,Clinical Review,14,High,High,Loop-back
+PT0215,Clinical Review,Diagnostic Test,23,High,High,Loop-back
+PT0215,Diagnostic Test,Clinical Review,14,High,High,Loop-back
+PT0215,Clinical Review,Treatment,24,High,High,Loop-back
+PT0215,Treatment,Discharge Planning,19,High,High,Loop-back
+PT0215,Discharge Planning,Discharge,4,High,High,Loop-back
+PT0216,Registration,Triage,19,Low,Medium,Normal
+PT0216,Triage,Initial Assessment,29,Low,Medium,Normal
+PT0216,Initial Assessment,Diagnostic Test,29,Low,Medium,Normal
+PT0216,Diagnostic Test,Clinical Review,69,Low,Medium,Normal
+PT0216,Clinical Review,Treatment,49,Low,Medium,Normal
+PT0216,Treatment,Discharge Planning,5,Low,Medium,Normal
+PT0216,Discharge Planning,Discharge,11,Low,Medium,Normal
+PT0217,Registration,Triage,3,Low,High,Normal
+PT0217,Triage,Initial Assessment,44,Low,High,Normal
+PT0217,Initial Assessment,Diagnostic Test,35,Low,High,Normal
+PT0217,Diagnostic Test,Clinical Review,20,Low,High,Normal
+PT0217,Clinical Review,Treatment,77,Low,High,Normal
+PT0217,Treatment,Discharge Planning,46,Low,High,Normal
+PT0217,Discharge Planning,Discharge,7,Low,High,Normal
+PT0218,Registration,Triage,14,Medium,Low,Normal
+PT0218,Triage,Initial Assessment,10,Medium,Low,Normal
+PT0218,Initial Assessment,Diagnostic Test,13,Medium,Low,Normal
+PT0218,Diagnostic Test,Clinical Review,7,Medium,Low,Normal
+PT0218,Clinical Review,Treatment,28,Medium,Low,Normal
+PT0218,Treatment,Discharge Planning,3,Medium,Low,Normal
+PT0218,Discharge Planning,Discharge,15,Medium,Low,Normal
+PT0219,Registration,Triage,2,Low,Low,Loop-back
+PT0219,Triage,Initial Assessment,111,Low,Low,Loop-back
+PT0219,Initial Assessment,Diagnostic Test,13,Low,Low,Loop-back
+PT0219,Diagnostic Test,Clinical Review,7,Low,Low,Loop-back
+PT0219,Clinical Review,Initial Assessment,34,Low,Low,Loop-back
+PT0219,Initial Assessment,Clinical Review,28,Low,Low,Loop-back
+PT0219,Clinical Review,Treatment,31,Low,Low,Loop-back
+PT0219,Treatment,Discharge Planning,23,Low,Low,Loop-back
+PT0219,Discharge Planning,Discharge,8,Low,Low,Loop-back
+PT0220,Registration,Triage,16,Low,Medium,Loop-back
+PT0220,Triage,Initial Assessment,26,Low,Medium,Loop-back
+PT0220,Initial Assessment,Diagnostic Test,76,Low,Medium,Loop-back
+PT0220,Diagnostic Test,Clinical Review,23,Low,Medium,Loop-back
+PT0220,Clinical Review,Diagnostic Test,133,Low,Medium,Loop-back
+PT0220,Diagnostic Test,Clinical Review,24,Low,Medium,Loop-back
+PT0220,Clinical Review,Treatment,19,Low,Medium,Loop-back
+PT0220,Treatment,Discharge Planning,6,Low,Medium,Loop-back
+PT0220,Discharge Planning,Discharge,29,Low,Medium,Loop-back
+PT0221,Registration,Triage,7,High,High,Normal
+PT0221,Triage,Initial Assessment,43,High,High,Normal
+PT0221,Initial Assessment,Diagnostic Test,30,High,High,Normal
+PT0221,Diagnostic Test,Clinical Review,31,High,High,Normal
+PT0221,Clinical Review,Treatment,35,High,High,Normal
+PT0221,Treatment,Discharge Planning,14,High,High,Normal
+PT0221,Discharge Planning,Discharge,24,High,High,Normal
+PT0222,Registration,Triage,1,Medium,Medium,Loop-back
+PT0222,Triage,Initial Assessment,1,Medium,Medium,Loop-back
+PT0222,Initial Assessment,Diagnostic Test,54,Medium,Medium,Loop-back
+PT0222,Diagnostic Test,Clinical Review,30,Medium,Medium,Loop-back
+PT0222,Clinical Review,Initial Assessment,14,Medium,Medium,Loop-back
+PT0222,Initial Assessment,Clinical Review,26,Medium,Medium,Loop-back
+PT0222,Clinical Review,Treatment,49,Medium,Medium,Loop-back
+PT0222,Treatment,Discharge Planning,20,Medium,Medium,Loop-back
+PT0222,Discharge Planning,Discharge,13,Medium,Medium,Loop-back
+PT0223,Registration,Triage,2,High,High,Loop-back
+PT0223,Triage,Initial Assessment,13,High,High,Loop-back
+PT0223,Initial Assessment,Diagnostic Test,61,High,High,Loop-back
+PT0223,Diagnostic Test,Clinical Review,66,High,High,Loop-back
+PT0223,Clinical Review,Diagnostic Test,31,High,High,Loop-back
+PT0223,Diagnostic Test,Clinical Review,22,High,High,Loop-back
+PT0223,Clinical Review,Treatment,20,High,High,Loop-back
+PT0223,Treatment,Discharge Planning,12,High,High,Loop-back
+PT0223,Discharge Planning,Discharge,32,High,High,Loop-back
+PT0224,Registration,Triage,18,High,Medium,Normal
+PT0224,Triage,Initial Assessment,15,High,Medium,Normal
+PT0224,Initial Assessment,Diagnostic Test,11,High,Medium,Normal
+PT0224,Diagnostic Test,Clinical Review,31,High,Medium,Normal
+PT0224,Clinical Review,Treatment,41,High,Medium,Normal
+PT0224,Treatment,Discharge Planning,22,High,Medium,Normal
+PT0224,Discharge Planning,Discharge,12,High,Medium,Normal
+PT0225,Registration,Triage,1,High,Medium,Normal
+PT0225,Triage,Initial Assessment,23,High,Medium,Normal
+PT0225,Initial Assessment,Diagnostic Test,6,High,Medium,Normal
+PT0225,Diagnostic Test,Clinical Review,13,High,Medium,Normal
+PT0225,Clinical Review,Treatment,11,High,Medium,Normal
+PT0225,Treatment,Discharge Planning,18,High,Medium,Normal
+PT0225,Discharge Planning,Discharge,9,High,Medium,Normal
+PT0226,Registration,Triage,1,Medium,Low,Normal
+PT0226,Triage,Initial Assessment,6,Medium,Low,Normal
+PT0226,Initial Assessment,Diagnostic Test,13,Medium,Low,Normal
+PT0226,Diagnostic Test,Clinical Review,6,Medium,Low,Normal
+PT0226,Clinical Review,Treatment,41,Medium,Low,Normal
+PT0226,Treatment,Discharge Planning,7,Medium,Low,Normal
+PT0226,Discharge Planning,Discharge,4,Medium,Low,Normal
+PT0227,Registration,Triage,23,Medium,High,Loop-back
+PT0227,Triage,Initial Assessment,117,Medium,High,Loop-back
+PT0227,Initial Assessment,Diagnostic Test,111,Medium,High,Loop-back
+PT0227,Diagnostic Test,Clinical Review,52,Medium,High,Loop-back
+PT0227,Clinical Review,Initial Assessment,29,Medium,High,Loop-back
+PT0227,Initial Assessment,Clinical Review,63,Medium,High,Loop-back
+PT0227,Clinical Review,Treatment,94,Medium,High,Loop-back
+PT0227,Treatment,Discharge Planning,33,Medium,High,Loop-back
+PT0227,Discharge Planning,Discharge,8,Medium,High,Loop-back
+PT0228,Registration,Triage,9,High,Low,Normal
+PT0228,Triage,Initial Assessment,12,High,Low,Normal
+PT0228,Initial Assessment,Diagnostic Test,14,High,Low,Normal
+PT0228,Diagnostic Test,Clinical Review,10,High,Low,Normal
+PT0228,Clinical Review,Treatment,14,High,Low,Normal
+PT0228,Treatment,Discharge Planning,10,High,Low,Normal
+PT0228,Discharge Planning,Discharge,22,High,Low,Normal
+PT0229,Registration,Triage,5,Medium,Low,Loop-back
+PT0229,Triage,Initial Assessment,5,Medium,Low,Loop-back
+PT0229,Initial Assessment,Diagnostic Test,5,Medium,Low,Loop-back
+PT0229,Diagnostic Test,Clinical Review,24,Medium,Low,Loop-back
+PT0229,Clinical Review,Diagnostic Test,55,Medium,Low,Loop-back
+PT0229,Diagnostic Test,Clinical Review,5,Medium,Low,Loop-back
+PT0229,Clinical Review,Treatment,91,Medium,Low,Loop-back
+PT0229,Treatment,Discharge Planning,8,Medium,Low,Loop-back
+PT0229,Discharge Planning,Discharge,14,Medium,Low,Loop-back
+PT0230,Registration,Triage,2,Medium,Low,Normal
+PT0230,Triage,Initial Assessment,40,Medium,Low,Normal
+PT0230,Initial Assessment,Diagnostic Test,33,Medium,Low,Normal
+PT0230,Diagnostic Test,Clinical Review,28,Medium,Low,Normal
+PT0230,Clinical Review,Treatment,7,Medium,Low,Normal
+PT0230,Treatment,Discharge Planning,7,Medium,Low,Normal
+PT0230,Discharge Planning,Discharge,30,Medium,Low,Normal
+PT0231,Registration,Triage,6,Medium,Medium,Normal
+PT0231,Triage,Initial Assessment,27,Medium,Medium,Normal
+PT0231,Initial Assessment,Diagnostic Test,39,Medium,Medium,Normal
+PT0231,Diagnostic Test,Clinical Review,22,Medium,Medium,Normal
+PT0231,Clinical Review,Treatment,53,Medium,Medium,Normal
+PT0231,Treatment,Discharge Planning,68,Medium,Medium,Normal
+PT0231,Discharge Planning,Discharge,19,Medium,Medium,Normal
+PT0232,Registration,Triage,7,Low,Low,Loop-back
+PT0232,Triage,Initial Assessment,22,Low,Low,Loop-back
+PT0232,Initial Assessment,Diagnostic Test,45,Low,Low,Loop-back
+PT0232,Diagnostic Test,Clinical Review,65,Low,Low,Loop-back
+PT0232,Clinical Review,Initial Assessment,9,Low,Low,Loop-back
+PT0232,Initial Assessment,Clinical Review,29,Low,Low,Loop-back
+PT0232,Clinical Review,Treatment,53,Low,Low,Loop-back
+PT0232,Treatment,Discharge Planning,15,Low,Low,Loop-back
+PT0232,Discharge Planning,Discharge,9,Low,Low,Loop-back
+PT0233,Registration,Triage,22,Low,Medium,Loop-back
+PT0233,Triage,Initial Assessment,40,Low,Medium,Loop-back
+PT0233,Initial Assessment,Diagnostic Test,91,Low,Medium,Loop-back
+PT0233,Diagnostic Test,Clinical Review,15,Low,Medium,Loop-back
+PT0233,Clinical Review,Initial Assessment,16,Low,Medium,Loop-back
+PT0233,Initial Assessment,Clinical Review,81,Low,Medium,Loop-back
+PT0233,Clinical Review,Treatment,56,Low,Medium,Loop-back
+PT0233,Treatment,Discharge Planning,56,Low,Medium,Loop-back
+PT0233,Discharge Planning,Discharge,6,Low,Medium,Loop-back
+PT0234,Registration,Triage,33,Low,High,Loop-back
+PT0234,Triage,Initial Assessment,12,Low,High,Loop-back
+PT0234,Initial Assessment,Diagnostic Test,58,Low,High,Loop-back
+PT0234,Diagnostic Test,Clinical Review,17,Low,High,Loop-back
+PT0234,Clinical Review,Initial Assessment,64,Low,High,Loop-back
+PT0234,Initial Assessment,Clinical Review,33,Low,High,Loop-back
+PT0234,Clinical Review,Treatment,102,Low,High,Loop-back
+PT0234,Treatment,Discharge Planning,40,Low,High,Loop-back
+PT0234,Discharge Planning,Discharge,60,Low,High,Loop-back
+PT0235,Registration,Triage,3,Low,Medium,Normal
+PT0235,Triage,Initial Assessment,11,Low,Medium,Normal
+PT0235,Initial Assessment,Diagnostic Test,60,Low,Medium,Normal
+PT0235,Diagnostic Test,Clinical Review,11,Low,Medium,Normal
+PT0235,Clinical Review,Treatment,66,Low,Medium,Normal
+PT0235,Treatment,Discharge Planning,12,Low,Medium,Normal
+PT0235,Discharge Planning,Discharge,15,Low,Medium,Normal
+PT0236,Registration,Triage,53,Medium,High,Normal
+PT0236,Triage,Initial Assessment,10,Medium,High,Normal
+PT0236,Initial Assessment,Diagnostic Test,40,Medium,High,Normal
+PT0236,Diagnostic Test,Clinical Review,24,Medium,High,Normal
+PT0236,Clinical Review,Treatment,72,Medium,High,Normal
+PT0236,Treatment,Discharge Planning,26,Medium,High,Normal
+PT0236,Discharge Planning,Discharge,34,Medium,High,Normal
+PT0237,Registration,Triage,8,Medium,Low,Normal
+PT0237,Triage,Initial Assessment,23,Medium,Low,Normal
+PT0237,Initial Assessment,Diagnostic Test,60,Medium,Low,Normal
+PT0237,Diagnostic Test,Clinical Review,10,Medium,Low,Normal
+PT0237,Clinical Review,Treatment,47,Medium,Low,Normal
+PT0237,Treatment,Discharge Planning,5,Medium,Low,Normal
+PT0237,Discharge Planning,Discharge,3,Medium,Low,Normal
+PT0238,Registration,Triage,5,Medium,Medium,Normal
+PT0238,Triage,Initial Assessment,28,Medium,Medium,Normal
+PT0238,Initial Assessment,Diagnostic Test,25,Medium,Medium,Normal
+PT0238,Diagnostic Test,Clinical Review,10,Medium,Medium,Normal
+PT0238,Clinical Review,Treatment,47,Medium,Medium,Normal
+PT0238,Treatment,Discharge Planning,9,Medium,Medium,Normal
+PT0238,Discharge Planning,Discharge,8,Medium,Medium,Normal
+PT0239,Registration,Triage,6,High,Low,Normal
+PT0239,Triage,Initial Assessment,12,High,Low,Normal
+PT0239,Initial Assessment,Diagnostic Test,44,High,Low,Normal
+PT0239,Diagnostic Test,Clinical Review,22,High,Low,Normal
+PT0239,Clinical Review,Treatment,47,High,Low,Normal
+PT0239,Treatment,Discharge Planning,17,High,Low,Normal
+PT0239,Discharge Planning,Discharge,6,High,Low,Normal
+PT0240,Registration,Triage,8,Medium,Medium,Normal
+PT0240,Triage,Initial Assessment,35,Medium,Medium,Normal
+PT0240,Initial Assessment,Diagnostic Test,23,Medium,Medium,Normal
+PT0240,Diagnostic Test,Clinical Review,43,Medium,Medium,Normal
+PT0240,Clinical Review,Treatment,11,Medium,Medium,Normal
+PT0240,Treatment,Discharge Planning,6,Medium,Medium,Normal
+PT0240,Discharge Planning,Discharge,9,Medium,Medium,Normal
+PT0241,Registration,Triage,1,Medium,Medium,Normal
+PT0241,Triage,Initial Assessment,19,Medium,Medium,Normal
+PT0241,Initial Assessment,Diagnostic Test,63,Medium,Medium,Normal
+PT0241,Diagnostic Test,Clinical Review,81,Medium,Medium,Normal
+PT0241,Clinical Review,Treatment,39,Medium,Medium,Normal
+PT0241,Treatment,Discharge Planning,19,Medium,Medium,Normal
+PT0241,Discharge Planning,Discharge,28,Medium,Medium,Normal
+PT0242,Registration,Triage,4,Medium,High,Normal
+PT0242,Triage,Initial Assessment,102,Medium,High,Normal
+PT0242,Initial Assessment,Diagnostic Test,41,Medium,High,Normal
+PT0242,Diagnostic Test,Clinical Review,42,Medium,High,Normal
+PT0242,Clinical Review,Treatment,27,Medium,High,Normal
+PT0242,Treatment,Discharge Planning,70,Medium,High,Normal
+PT0242,Discharge Planning,Discharge,15,Medium,High,Normal
+PT0243,Registration,Triage,12,High,High,Loop-back
+PT0243,Triage,Initial Assessment,18,High,High,Loop-back
+PT0243,Initial Assessment,Diagnostic Test,51,High,High,Loop-back
+PT0243,Diagnostic Test,Clinical Review,11,High,High,Loop-back
+PT0243,Clinical Review,Diagnostic Test,27,High,High,Loop-back
+PT0243,Diagnostic Test,Clinical Review,33,High,High,Loop-back
+PT0243,Clinical Review,Treatment,75,High,High,Loop-back
+PT0243,Treatment,Discharge Planning,33,High,High,Loop-back
+PT0243,Discharge Planning,Discharge,31,High,High,Loop-back
+PT0244,Registration,Triage,12,Low,Medium,Normal
+PT0244,Triage,Initial Assessment,28,Low,Medium,Normal
+PT0244,Initial Assessment,Diagnostic Test,50,Low,Medium,Normal
+PT0244,Diagnostic Test,Clinical Review,64,Low,Medium,Normal
+PT0244,Clinical Review,Treatment,121,Low,Medium,Normal
+PT0244,Treatment,Discharge Planning,56,Low,Medium,Normal
+PT0244,Discharge Planning,Discharge,35,Low,Medium,Normal
+PT0245,Registration,Triage,13,Medium,Medium,Loop-back
+PT0245,Triage,Initial Assessment,19,Medium,Medium,Loop-back
+PT0245,Initial Assessment,Diagnostic Test,13,Medium,Medium,Loop-back
+PT0245,Diagnostic Test,Clinical Review,19,Medium,Medium,Loop-back
+PT0245,Clinical Review,Initial Assessment,5,Medium,Medium,Loop-back
+PT0245,Initial Assessment,Clinical Review,30,Medium,Medium,Loop-back
+PT0245,Clinical Review,Treatment,88,Medium,Medium,Loop-back
+PT0245,Treatment,Discharge Planning,15,Medium,Medium,Loop-back
+PT0245,Discharge Planning,Discharge,51,Medium,Medium,Loop-back
+PT0246,Registration,Triage,20,Low,Medium,Normal
+PT0246,Triage,Initial Assessment,7,Low,Medium,Normal
+PT0246,Initial Assessment,Diagnostic Test,10,Low,Medium,Normal
+PT0246,Diagnostic Test,Clinical Review,25,Low,Medium,Normal
+PT0246,Clinical Review,Treatment,7,Low,Medium,Normal
+PT0246,Treatment,Discharge Planning,31,Low,Medium,Normal
+PT0246,Discharge Planning,Discharge,12,Low,Medium,Normal
+PT0247,Registration,Triage,17,High,High,Normal
+PT0247,Triage,Initial Assessment,15,High,High,Normal
+PT0247,Initial Assessment,Diagnostic Test,46,High,High,Normal
+PT0247,Diagnostic Test,Clinical Review,57,High,High,Normal
+PT0247,Clinical Review,Treatment,159,High,High,Normal
+PT0247,Treatment,Discharge Planning,25,High,High,Normal
+PT0247,Discharge Planning,Discharge,6,High,High,Normal
+PT0248,Registration,Triage,6,High,Low,Normal
+PT0248,Triage,Initial Assessment,13,High,Low,Normal
+PT0248,Initial Assessment,Diagnostic Test,26,High,Low,Normal
+PT0248,Diagnostic Test,Clinical Review,21,High,Low,Normal
+PT0248,Clinical Review,Treatment,63,High,Low,Normal
+PT0248,Treatment,Discharge Planning,3,High,Low,Normal
+PT0248,Discharge Planning,Discharge,4,High,Low,Normal
+PT0249,Registration,Triage,14,Low,High,Normal
+PT0249,Triage,Initial Assessment,31,Low,High,Normal
+PT0249,Initial Assessment,Diagnostic Test,56,Low,High,Normal
+PT0249,Diagnostic Test,Clinical Review,15,Low,High,Normal
+PT0249,Clinical Review,Treatment,47,Low,High,Normal
+PT0249,Treatment,Discharge Planning,26,Low,High,Normal
+PT0249,Discharge Planning,Discharge,58,Low,High,Normal
+PT0250,Registration,Triage,28,Low,Medium,Normal
+PT0250,Triage,Initial Assessment,54,Low,Medium,Normal
+PT0250,Initial Assessment,Diagnostic Test,64,Low,Medium,Normal
+PT0250,Diagnostic Test,Clinical Review,98,Low,Medium,Normal
+PT0250,Clinical Review,Treatment,37,Low,Medium,Normal
+PT0250,Treatment,Discharge Planning,19,Low,Medium,Normal
+PT0250,Discharge Planning,Discharge,5,Low,Medium,Normal
+PT0251,Registration,Triage,13,High,High,Normal
+PT0251,Triage,Initial Assessment,35,High,High,Normal
+PT0251,Initial Assessment,Diagnostic Test,39,High,High,Normal
+PT0251,Diagnostic Test,Clinical Review,26,High,High,Normal
+PT0251,Clinical Review,Treatment,13,High,High,Normal
+PT0251,Treatment,Discharge Planning,51,High,High,Normal
+PT0251,Discharge Planning,Discharge,5,High,High,Normal
+PT0252,Registration,Triage,26,Low,High,Loop-back
+PT0252,Triage,Initial Assessment,11,Low,High,Loop-back
+PT0252,Initial Assessment,Diagnostic Test,128,Low,High,Loop-back
+PT0252,Diagnostic Test,Clinical Review,73,Low,High,Loop-back
+PT0252,Clinical Review,Initial Assessment,25,Low,High,Loop-back
+PT0252,Initial Assessment,Clinical Review,109,Low,High,Loop-back
+PT0252,Clinical Review,Treatment,73,Low,High,Loop-back
+PT0252,Treatment,Discharge Planning,26,Low,High,Loop-back
+PT0252,Discharge Planning,Discharge,15,Low,High,Loop-back
+PT0253,Registration,Triage,5,Low,Medium,Loop-back
+PT0253,Triage,Initial Assessment,39,Low,Medium,Loop-back
+PT0253,Initial Assessment,Diagnostic Test,13,Low,Medium,Loop-back
+PT0253,Diagnostic Test,Clinical Review,44,Low,Medium,Loop-back
+PT0253,Clinical Review,Diagnostic Test,40,Low,Medium,Loop-back
+PT0253,Diagnostic Test,Clinical Review,23,Low,Medium,Loop-back
+PT0253,Clinical Review,Treatment,28,Low,Medium,Loop-back
+PT0253,Treatment,Discharge Planning,13,Low,Medium,Loop-back
+PT0253,Discharge Planning,Discharge,19,Low,Medium,Loop-back
+PT0254,Registration,Triage,2,Low,Medium,Normal
+PT0254,Triage,Initial Assessment,30,Low,Medium,Normal
+PT0254,Initial Assessment,Diagnostic Test,1,Low,Medium,Normal
+PT0254,Diagnostic Test,Clinical Review,26,Low,Medium,Normal
+PT0254,Clinical Review,Treatment,62,Low,Medium,Normal
+PT0254,Treatment,Discharge Planning,49,Low,Medium,Normal
+PT0254,Discharge Planning,Discharge,30,Low,Medium,Normal
+PT0255,Registration,Triage,10,Medium,Low,Normal
+PT0255,Triage,Initial Assessment,25,Medium,Low,Normal
+PT0255,Initial Assessment,Diagnostic Test,8,Medium,Low,Normal
+PT0255,Diagnostic Test,Clinical Review,29,Medium,Low,Normal
+PT0255,Clinical Review,Treatment,12,Medium,Low,Normal
+PT0255,Treatment,Discharge Planning,24,Medium,Low,Normal
+PT0255,Discharge Planning,Discharge,28,Medium,Low,Normal
+PT0256,Registration,Triage,4,Medium,Medium,Normal
+PT0256,Triage,Initial Assessment,48,Medium,Medium,Normal
+PT0256,Initial Assessment,Diagnostic Test,89,Medium,Medium,Normal
+PT0256,Diagnostic Test,Clinical Review,19,Medium,Medium,Normal
+PT0256,Clinical Review,Treatment,78,Medium,Medium,Normal
+PT0256,Treatment,Discharge Planning,28,Medium,Medium,Normal
+PT0256,Discharge Planning,Discharge,15,Medium,Medium,Normal
+PT0257,Registration,Triage,14,Medium,Medium,Normal
+PT0257,Triage,Initial Assessment,7,Medium,Medium,Normal
+PT0257,Initial Assessment,Diagnostic Test,33,Medium,Medium,Normal
+PT0257,Diagnostic Test,Clinical Review,88,Medium,Medium,Normal
+PT0257,Clinical Review,Treatment,26,Medium,Medium,Normal
+PT0257,Treatment,Discharge Planning,32,Medium,Medium,Normal
+PT0257,Discharge Planning,Discharge,34,Medium,Medium,Normal
+PT0258,Registration,Triage,13,Low,Medium,Normal
+PT0258,Triage,Initial Assessment,6,Low,Medium,Normal
+PT0258,Initial Assessment,Diagnostic Test,36,Low,Medium,Normal
+PT0258,Diagnostic Test,Clinical Review,13,Low,Medium,Normal
+PT0258,Clinical Review,Treatment,60,Low,Medium,Normal
+PT0258,Treatment,Discharge Planning,16,Low,Medium,Normal
+PT0258,Discharge Planning,Discharge,4,Low,Medium,Normal
+PT0259,Registration,Triage,1,High,High,Loop-back
+PT0259,Triage,Initial Assessment,12,High,High,Loop-back
+PT0259,Initial Assessment,Diagnostic Test,26,High,High,Loop-back
+PT0259,Diagnostic Test,Clinical Review,9,High,High,Loop-back
+PT0259,Clinical Review,Diagnostic Test,4,High,High,Loop-back
+PT0259,Diagnostic Test,Clinical Review,26,High,High,Loop-back
+PT0259,Clinical Review,Treatment,137,High,High,Loop-back
+PT0259,Treatment,Discharge Planning,27,High,High,Loop-back
+PT0259,Discharge Planning,Discharge,15,High,High,Loop-back
+PT0260,Registration,Triage,10,Medium,Low,Normal
+PT0260,Triage,Initial Assessment,23,Medium,Low,Normal
+PT0260,Initial Assessment,Diagnostic Test,11,Medium,Low,Normal
+PT0260,Diagnostic Test,Clinical Review,15,Medium,Low,Normal
+PT0260,Clinical Review,Treatment,6,Medium,Low,Normal
+PT0260,Treatment,Discharge Planning,16,Medium,Low,Normal
+PT0260,Discharge Planning,Discharge,16,Medium,Low,Normal
+PT0261,Registration,Triage,42,Low,High,Normal
+PT0261,Triage,Initial Assessment,24,Low,High,Normal
+PT0261,Initial Assessment,Diagnostic Test,208,Low,High,Normal
+PT0261,Diagnostic Test,Clinical Review,71,Low,High,Normal
+PT0261,Clinical Review,Treatment,73,Low,High,Normal
+PT0261,Treatment,Discharge Planning,56,Low,High,Normal
+PT0261,Discharge Planning,Discharge,11,Low,High,Normal
+PT0262,Registration,Triage,54,Low,Low,Loop-back
+PT0262,Triage,Initial Assessment,15,Low,Low,Loop-back
+PT0262,Initial Assessment,Diagnostic Test,21,Low,Low,Loop-back
+PT0262,Diagnostic Test,Clinical Review,39,Low,Low,Loop-back
+PT0262,Clinical Review,Initial Assessment,40,Low,Low,Loop-back
+PT0262,Initial Assessment,Clinical Review,12,Low,Low,Loop-back
+PT0262,Clinical Review,Treatment,72,Low,Low,Loop-back
+PT0262,Treatment,Discharge Planning,11,Low,Low,Loop-back
+PT0262,Discharge Planning,Discharge,10,Low,Low,Loop-back
+PT0263,Registration,Triage,3,Low,High,Normal
+PT0263,Triage,Initial Assessment,11,Low,High,Normal
+PT0263,Initial Assessment,Diagnostic Test,57,Low,High,Normal
+PT0263,Diagnostic Test,Clinical Review,55,Low,High,Normal
+PT0263,Clinical Review,Treatment,20,Low,High,Normal
+PT0263,Treatment,Discharge Planning,59,Low,High,Normal
+PT0263,Discharge Planning,Discharge,12,Low,High,Normal
+PT0264,Registration,Triage,11,Low,Low,Normal
+PT0264,Triage,Initial Assessment,38,Low,Low,Normal
+PT0264,Initial Assessment,Diagnostic Test,47,Low,Low,Normal
+PT0264,Diagnostic Test,Clinical Review,23,Low,Low,Normal
+PT0264,Clinical Review,Treatment,68,Low,Low,Normal
+PT0264,Treatment,Discharge Planning,26,Low,Low,Normal
+PT0264,Discharge Planning,Discharge,15,Low,Low,Normal
+PT0265,Registration,Triage,15,High,Low,Normal
+PT0265,Triage,Initial Assessment,10,High,Low,Normal
+PT0265,Initial Assessment,Diagnostic Test,14,High,Low,Normal
+PT0265,Diagnostic Test,Clinical Review,14,High,Low,Normal
+PT0265,Clinical Review,Treatment,27,High,Low,Normal
+PT0265,Treatment,Discharge Planning,21,High,Low,Normal
+PT0265,Discharge Planning,Discharge,21,High,Low,Normal
+PT0266,Registration,Triage,1,Low,Medium,Normal
+PT0266,Triage,Initial Assessment,21,Low,Medium,Normal
+PT0266,Initial Assessment,Diagnostic Test,16,Low,Medium,Normal
+PT0266,Diagnostic Test,Clinical Review,101,Low,Medium,Normal
+PT0266,Clinical Review,Treatment,102,Low,Medium,Normal
+PT0266,Treatment,Discharge Planning,13,Low,Medium,Normal
+PT0266,Discharge Planning,Discharge,60,Low,Medium,Normal
+PT0267,Registration,Triage,4,Medium,Medium,Normal
+PT0267,Triage,Initial Assessment,12,Medium,Medium,Normal
+PT0267,Initial Assessment,Diagnostic Test,38,Medium,Medium,Normal
+PT0267,Diagnostic Test,Clinical Review,48,Medium,Medium,Normal
+PT0267,Clinical Review,Treatment,64,Medium,Medium,Normal
+PT0267,Treatment,Discharge Planning,13,Medium,Medium,Normal
+PT0267,Discharge Planning,Discharge,87,Medium,Medium,Normal
+PT0268,Registration,Triage,15,High,High,Loop-back
+PT0268,Triage,Initial Assessment,96,High,High,Loop-back
+PT0268,Initial Assessment,Diagnostic Test,14,High,High,Loop-back
+PT0268,Diagnostic Test,Clinical Review,15,High,High,Loop-back
+PT0268,Clinical Review,Diagnostic Test,32,High,High,Loop-back
+PT0268,Diagnostic Test,Clinical Review,10,High,High,Loop-back
+PT0268,Clinical Review,Treatment,107,High,High,Loop-back
+PT0268,Treatment,Discharge Planning,35,High,High,Loop-back
+PT0268,Discharge Planning,Discharge,3,High,High,Loop-back
+PT0269,Registration,Triage,2,High,Low,Loop-back
+PT0269,Triage,Initial Assessment,13,High,Low,Loop-back
+PT0269,Initial Assessment,Diagnostic Test,6,High,Low,Loop-back
+PT0269,Diagnostic Test,Clinical Review,13,High,Low,Loop-back
+PT0269,Clinical Review,Diagnostic Test,12,High,Low,Loop-back
+PT0269,Diagnostic Test,Clinical Review,10,High,Low,Loop-back
+PT0269,Clinical Review,Treatment,29,High,Low,Loop-back
+PT0269,Treatment,Discharge Planning,5,High,Low,Loop-back
+PT0269,Discharge Planning,Discharge,1,High,Low,Loop-back
+PT0270,Registration,Triage,5,Medium,Low,Loop-back
+PT0270,Triage,Initial Assessment,14,Medium,Low,Loop-back
+PT0270,Initial Assessment,Diagnostic Test,19,Medium,Low,Loop-back
+PT0270,Diagnostic Test,Clinical Review,17,Medium,Low,Loop-back
+PT0270,Clinical Review,Diagnostic Test,20,Medium,Low,Loop-back
+PT0270,Diagnostic Test,Clinical Review,2,Medium,Low,Loop-back
+PT0270,Clinical Review,Treatment,18,Medium,Low,Loop-back
+PT0270,Treatment,Discharge Planning,12,Medium,Low,Loop-back
+PT0270,Discharge Planning,Discharge,6,Medium,Low,Loop-back
+PT0271,Registration,Triage,21,Low,Medium,Loop-back
+PT0271,Triage,Initial Assessment,35,Low,Medium,Loop-back
+PT0271,Initial Assessment,Diagnostic Test,9,Low,Medium,Loop-back
+PT0271,Diagnostic Test,Clinical Review,146,Low,Medium,Loop-back
+PT0271,Clinical Review,Initial Assessment,74,Low,Medium,Loop-back
+PT0271,Initial Assessment,Clinical Review,53,Low,Medium,Loop-back
+PT0271,Clinical Review,Treatment,11,Low,Medium,Loop-back
+PT0271,Treatment,Discharge Planning,31,Low,Medium,Loop-back
+PT0271,Discharge Planning,Discharge,7,Low,Medium,Loop-back
+PT0272,Registration,Triage,5,High,Medium,Normal
+PT0272,Triage,Initial Assessment,56,High,Medium,Normal
+PT0272,Initial Assessment,Diagnostic Test,8,High,Medium,Normal
+PT0272,Diagnostic Test,Clinical Review,9,High,Medium,Normal
+PT0272,Clinical Review,Treatment,22,High,Medium,Normal
+PT0272,Treatment,Discharge Planning,4,High,Medium,Normal
+PT0272,Discharge Planning,Discharge,15,High,Medium,Normal
+PT0273,Registration,Triage,12,High,Low,Normal
+PT0273,Triage,Initial Assessment,19,High,Low,Normal
+PT0273,Initial Assessment,Diagnostic Test,23,High,Low,Normal
+PT0273,Diagnostic Test,Clinical Review,48,High,Low,Normal
+PT0273,Clinical Review,Treatment,4,High,Low,Normal
+PT0273,Treatment,Discharge Planning,22,High,Low,Normal
+PT0273,Discharge Planning,Discharge,6,High,Low,Normal
+PT0274,Registration,Triage,15,High,High,Normal
+PT0274,Triage,Initial Assessment,9,High,High,Normal
+PT0274,Initial Assessment,Diagnostic Test,40,High,High,Normal
+PT0274,Diagnostic Test,Clinical Review,12,High,High,Normal
+PT0274,Clinical Review,Treatment,133,High,High,Normal
+PT0274,Treatment,Discharge Planning,18,High,High,Normal
+PT0274,Discharge Planning,Discharge,6,High,High,Normal
+PT0275,Registration,Triage,6,Low,Low,Normal
+PT0275,Triage,Initial Assessment,31,Low,Low,Normal
+PT0275,Initial Assessment,Diagnostic Test,20,Low,Low,Normal
+PT0275,Diagnostic Test,Clinical Review,6,Low,Low,Normal
+PT0275,Clinical Review,Treatment,98,Low,Low,Normal
+PT0275,Treatment,Discharge Planning,23,Low,Low,Normal
+PT0275,Discharge Planning,Discharge,7,Low,Low,Normal
+PT0276,Registration,Triage,30,Medium,High,Normal
+PT0276,Triage,Initial Assessment,51,Medium,High,Normal
+PT0276,Initial Assessment,Diagnostic Test,2,Medium,High,Normal
+PT0276,Diagnostic Test,Clinical Review,43,Medium,High,Normal
+PT0276,Clinical Review,Treatment,21,Medium,High,Normal
+PT0276,Treatment,Discharge Planning,4,Medium,High,Normal
+PT0276,Discharge Planning,Discharge,34,Medium,High,Normal
+PT0277,Registration,Triage,4,Low,High,Normal
+PT0277,Triage,Initial Assessment,37,Low,High,Normal
+PT0277,Initial Assessment,Diagnostic Test,33,Low,High,Normal
+PT0277,Diagnostic Test,Clinical Review,46,Low,High,Normal
+PT0277,Clinical Review,Treatment,14,Low,High,Normal
+PT0277,Treatment,Discharge Planning,36,Low,High,Normal
+PT0277,Discharge Planning,Discharge,48,Low,High,Normal
+PT0278,Registration,Triage,47,Medium,High,Normal
+PT0278,Triage,Initial Assessment,42,Medium,High,Normal
+PT0278,Initial Assessment,Diagnostic Test,71,Medium,High,Normal
+PT0278,Diagnostic Test,Clinical Review,49,Medium,High,Normal
+PT0278,Clinical Review,Treatment,172,Medium,High,Normal
+PT0278,Treatment,Discharge Planning,29,Medium,High,Normal
+PT0278,Discharge Planning,Discharge,31,Medium,High,Normal
+PT0279,Registration,Triage,2,High,Medium,Normal
+PT0279,Triage,Initial Assessment,24,High,Medium,Normal
+PT0279,Initial Assessment,Diagnostic Test,30,High,Medium,Normal
+PT0279,Diagnostic Test,Clinical Review,37,High,Medium,Normal
+PT0279,Clinical Review,Treatment,33,High,Medium,Normal
+PT0279,Treatment,Discharge Planning,17,High,Medium,Normal
+PT0279,Discharge Planning,Discharge,22,High,Medium,Normal
+PT0280,Registration,Triage,17,High,High,Normal
+PT0280,Triage,Initial Assessment,23,High,High,Normal
+PT0280,Initial Assessment,Diagnostic Test,7,High,High,Normal
+PT0280,Diagnostic Test,Clinical Review,61,High,High,Normal
+PT0280,Clinical Review,Treatment,83,High,High,Normal
+PT0280,Treatment,Discharge Planning,51,High,High,Normal
+PT0280,Discharge Planning,Discharge,19,High,High,Normal
+PT0281,Registration,Triage,9,Low,Medium,Normal
+PT0281,Triage,Initial Assessment,25,Low,Medium,Normal
+PT0281,Initial Assessment,Diagnostic Test,20,Low,Medium,Normal
+PT0281,Diagnostic Test,Clinical Review,6,Low,Medium,Normal
+PT0281,Clinical Review,Treatment,188,Low,Medium,Normal
+PT0281,Treatment,Discharge Planning,24,Low,Medium,Normal
+PT0281,Discharge Planning,Discharge,11,Low,Medium,Normal
+PT0282,Registration,Triage,21,Low,Medium,Normal
+PT0282,Triage,Initial Assessment,37,Low,Medium,Normal
+PT0282,Initial Assessment,Diagnostic Test,63,Low,Medium,Normal
+PT0282,Diagnostic Test,Clinical Review,98,Low,Medium,Normal
+PT0282,Clinical Review,Treatment,1,Low,Medium,Normal
+PT0282,Treatment,Discharge Planning,8,Low,Medium,Normal
+PT0282,Discharge Planning,Discharge,2,Low,Medium,Normal
+PT0283,Registration,Triage,11,High,Medium,Normal
+PT0283,Triage,Initial Assessment,14,High,Medium,Normal
+PT0283,Initial Assessment,Diagnostic Test,28,High,Medium,Normal
+PT0283,Diagnostic Test,Clinical Review,31,High,Medium,Normal
+PT0283,Clinical Review,Treatment,5,High,Medium,Normal
+PT0283,Treatment,Discharge Planning,14,High,Medium,Normal
+PT0283,Discharge Planning,Discharge,3,High,Medium,Normal
+PT0284,Registration,Triage,2,Low,Medium,Normal
+PT0284,Triage,Initial Assessment,37,Low,Medium,Normal
+PT0284,Initial Assessment,Diagnostic Test,16,Low,Medium,Normal
+PT0284,Diagnostic Test,Clinical Review,36,Low,Medium,Normal
+PT0284,Clinical Review,Treatment,36,Low,Medium,Normal
+PT0284,Treatment,Discharge Planning,20,Low,Medium,Normal
+PT0284,Discharge Planning,Discharge,13,Low,Medium,Normal
+PT0285,Registration,Triage,24,High,High,Loop-back
+PT0285,Triage,Initial Assessment,31,High,High,Loop-back
+PT0285,Initial Assessment,Diagnostic Test,52,High,High,Loop-back
+PT0285,Diagnostic Test,Clinical Review,16,High,High,Loop-back
+PT0285,Clinical Review,Diagnostic Test,39,High,High,Loop-back
+PT0285,Diagnostic Test,Clinical Review,41,High,High,Loop-back
+PT0285,Clinical Review,Treatment,70,High,High,Loop-back
+PT0285,Treatment,Discharge Planning,8,High,High,Loop-back
+PT0285,Discharge Planning,Discharge,54,High,High,Loop-back
+PT0286,Registration,Triage,6,Medium,High,Normal
+PT0286,Triage,Initial Assessment,20,Medium,High,Normal
+PT0286,Initial Assessment,Diagnostic Test,47,Medium,High,Normal
+PT0286,Diagnostic Test,Clinical Review,13,Medium,High,Normal
+PT0286,Clinical Review,Treatment,57,Medium,High,Normal
+PT0286,Treatment,Discharge Planning,10,Medium,High,Normal
+PT0286,Discharge Planning,Discharge,26,Medium,High,Normal
+PT0287,Registration,Triage,31,Medium,Medium,Normal
+PT0287,Triage,Initial Assessment,42,Medium,Medium,Normal
+PT0287,Initial Assessment,Diagnostic Test,35,Medium,Medium,Normal
+PT0287,Diagnostic Test,Clinical Review,24,Medium,Medium,Normal
+PT0287,Clinical Review,Treatment,41,Medium,Medium,Normal
+PT0287,Treatment,Discharge Planning,30,Medium,Medium,Normal
+PT0287,Discharge Planning,Discharge,18,Medium,Medium,Normal
+PT0288,Registration,Triage,20,High,High,Loop-back
+PT0288,Triage,Initial Assessment,101,High,High,Loop-back
+PT0288,Initial Assessment,Diagnostic Test,30,High,High,Loop-back
+PT0288,Diagnostic Test,Clinical Review,25,High,High,Loop-back
+PT0288,Clinical Review,Diagnostic Test,73,High,High,Loop-back
+PT0288,Diagnostic Test,Clinical Review,3,High,High,Loop-back
+PT0288,Clinical Review,Treatment,25,High,High,Loop-back
+PT0288,Treatment,Discharge Planning,46,High,High,Loop-back
+PT0288,Discharge Planning,Discharge,29,High,High,Loop-back
+PT0289,Registration,Triage,12,Medium,Low,Normal
+PT0289,Triage,Initial Assessment,18,Medium,Low,Normal
+PT0289,Initial Assessment,Diagnostic Test,48,Medium,Low,Normal
+PT0289,Diagnostic Test,Clinical Review,23,Medium,Low,Normal
+PT0289,Clinical Review,Treatment,53,Medium,Low,Normal
+PT0289,Treatment,Discharge Planning,25,Medium,Low,Normal
+PT0289,Discharge Planning,Discharge,20,Medium,Low,Normal
+PT0290,Registration,Triage,6,Medium,Medium,Normal
+PT0290,Triage,Initial Assessment,33,Medium,Medium,Normal
+PT0290,Initial Assessment,Diagnostic Test,122,Medium,Medium,Normal
+PT0290,Diagnostic Test,Clinical Review,16,Medium,Medium,Normal
+PT0290,Clinical Review,Treatment,110,Medium,Medium,Normal
+PT0290,Treatment,Discharge Planning,4,Medium,Medium,Normal
+PT0290,Discharge Planning,Discharge,21,Medium,Medium,Normal
+PT0291,Registration,Triage,7,Medium,High,Loop-back
+PT0291,Triage,Initial Assessment,3,Medium,High,Loop-back
+PT0291,Initial Assessment,Diagnostic Test,82,Medium,High,Loop-back
+PT0291,Diagnostic Test,Clinical Review,168,Medium,High,Loop-back
+PT0291,Clinical Review,Initial Assessment,6,Medium,High,Loop-back
+PT0291,Initial Assessment,Clinical Review,47,Medium,High,Loop-back
+PT0291,Clinical Review,Treatment,67,Medium,High,Loop-back
+PT0291,Treatment,Discharge Planning,28,Medium,High,Loop-back
+PT0291,Discharge Planning,Discharge,20,Medium,High,Loop-back
+PT0292,Registration,Triage,6,High,Medium,Loop-back
+PT0292,Triage,Initial Assessment,19,High,Medium,Loop-back
+PT0292,Initial Assessment,Diagnostic Test,97,High,Medium,Loop-back
+PT0292,Diagnostic Test,Clinical Review,10,High,Medium,Loop-back
+PT0292,Clinical Review,Initial Assessment,63,High,Medium,Loop-back
+PT0292,Initial Assessment,Clinical Review,41,High,Medium,Loop-back
+PT0292,Clinical Review,Treatment,6,High,Medium,Loop-back
+PT0292,Treatment,Discharge Planning,32,High,Medium,Loop-back
+PT0292,Discharge Planning,Discharge,18,High,Medium,Loop-back
+PT0293,Registration,Triage,21,Low,Medium,Normal
+PT0293,Triage,Initial Assessment,29,Low,Medium,Normal
+PT0293,Initial Assessment,Diagnostic Test,46,Low,Medium,Normal
+PT0293,Diagnostic Test,Clinical Review,56,Low,Medium,Normal
+PT0293,Clinical Review,Treatment,109,Low,Medium,Normal
+PT0293,Treatment,Discharge Planning,11,Low,Medium,Normal
+PT0293,Discharge Planning,Discharge,30,Low,Medium,Normal
+PT0294,Registration,Triage,11,Low,Medium,Normal
+PT0294,Triage,Initial Assessment,55,Low,Medium,Normal
+PT0294,Initial Assessment,Diagnostic Test,54,Low,Medium,Normal
+PT0294,Diagnostic Test,Clinical Review,68,Low,Medium,Normal
+PT0294,Clinical Review,Treatment,87,Low,Medium,Normal
+PT0294,Treatment,Discharge Planning,17,Low,Medium,Normal
+PT0294,Discharge Planning,Discharge,25,Low,Medium,Normal
+PT0295,Registration,Triage,1,Medium,Medium,Normal
+PT0295,Triage,Initial Assessment,65,Medium,Medium,Normal
+PT0295,Initial Assessment,Diagnostic Test,7,Medium,Medium,Normal
+PT0295,Diagnostic Test,Clinical Review,20,Medium,Medium,Normal
+PT0295,Clinical Review,Treatment,47,Medium,Medium,Normal
+PT0295,Treatment,Discharge Planning,19,Medium,Medium,Normal
+PT0295,Discharge Planning,Discharge,5,Medium,Medium,Normal
+PT0296,Registration,Triage,7,Medium,High,Normal
+PT0296,Triage,Initial Assessment,56,Medium,High,Normal
+PT0296,Initial Assessment,Diagnostic Test,49,Medium,High,Normal
+PT0296,Diagnostic Test,Clinical Review,40,Medium,High,Normal
+PT0296,Clinical Review,Treatment,46,Medium,High,Normal
+PT0296,Treatment,Discharge Planning,38,Medium,High,Normal
+PT0296,Discharge Planning,Discharge,12,Medium,High,Normal
+PT0297,Registration,Triage,20,Medium,High,Normal
+PT0297,Triage,Initial Assessment,24,Medium,High,Normal
+PT0297,Initial Assessment,Diagnostic Test,122,Medium,High,Normal
+PT0297,Diagnostic Test,Clinical Review,35,Medium,High,Normal
+PT0297,Clinical Review,Treatment,38,Medium,High,Normal
+PT0297,Treatment,Discharge Planning,66,Medium,High,Normal
+PT0297,Discharge Planning,Discharge,32,Medium,High,Normal
+PT0298,Registration,Triage,2,High,Low,Normal
+PT0298,Triage,Initial Assessment,3,High,Low,Normal
+PT0298,Initial Assessment,Diagnostic Test,12,High,Low,Normal
+PT0298,Diagnostic Test,Clinical Review,14,High,Low,Normal
+PT0298,Clinical Review,Treatment,9,High,Low,Normal
+PT0298,Treatment,Discharge Planning,17,High,Low,Normal
+PT0298,Discharge Planning,Discharge,14,High,Low,Normal
+PT0299,Registration,Triage,29,Low,High,Normal
+PT0299,Triage,Initial Assessment,43,Low,High,Normal
+PT0299,Initial Assessment,Diagnostic Test,55,Low,High,Normal
+PT0299,Diagnostic Test,Clinical Review,132,Low,High,Normal
+PT0299,Clinical Review,Treatment,31,Low,High,Normal
+PT0299,Treatment,Discharge Planning,17,Low,High,Normal
+PT0299,Discharge Planning,Discharge,15,Low,High,Normal
+PT0300,Registration,Triage,5,Medium,High,Normal
+PT0300,Triage,Initial Assessment,92,Medium,High,Normal
+PT0300,Initial Assessment,Diagnostic Test,15,Medium,High,Normal
+PT0300,Diagnostic Test,Clinical Review,52,Medium,High,Normal
+PT0300,Clinical Review,Treatment,14,Medium,High,Normal
+PT0300,Treatment,Discharge Planning,20,Medium,High,Normal
+PT0300,Discharge Planning,Discharge,24,Medium,High,Normal
