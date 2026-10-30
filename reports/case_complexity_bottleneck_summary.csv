@@ -1,0 +1,4 @@
+case_complexity,patient_count,event_count,average_waiting_time,median_waiting_time,total_waiting_time,average_activity_duration
+High,107,920,37.96,27.0,34920,16.2
+Medium,93,786,26.11,18.0,20525,15.59
+Low,100,856,19.42,14.0,16627,15.21

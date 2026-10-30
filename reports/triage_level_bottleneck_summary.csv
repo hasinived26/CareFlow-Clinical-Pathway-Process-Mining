@@ -1,0 +1,4 @@
+triage_level,patient_count,event_count,average_waiting_time,median_waiting_time,total_waiting_time,average_activity_duration
+Low,107,912,34.23,23.0,31222,15.91
+Medium,103,878,27.52,19.0,24166,16.0
+High,90,772,21.61,15.0,16684,15.05
