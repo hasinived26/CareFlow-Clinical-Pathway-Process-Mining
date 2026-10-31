@@ -1,0 +1,2 @@
+total_patients,total_events,total_activities,average_waiting_time,median_waiting_time,total_waiting_time,average_activity_duration,total_activity_duration,highest_waiting_activity,highest_average_waiting_time
+300,2562,8,28.13,19.0,72072,15.68,40173,Treatment,55.61
