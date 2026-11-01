@@ -1,0 +1,7 @@
+metric,expected_value,actual_value,status
+total_patients,300.0,300.0,PASS
+total_events,2562.0,2562.0,PASS
+total_activities,8.0,8.0,PASS
+average_waiting_time,28.13,28.13,PASS
+median_waiting_time,19.0,19.0,PASS
+total_waiting_time,72072.0,72072.0,PASS
