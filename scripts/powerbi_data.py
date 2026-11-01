@@ -32,6 +32,6 @@ kpi_summary.to_csv(
     index=False
 )
 
-print("\nPower BI KPI Summary:\n")
+print("\nPower BI KPI Summary : \n")
 print(kpi_summary.to_string(index=False))
 print("\nReport saved to reports/powerbi_kpi_summary.csv")
