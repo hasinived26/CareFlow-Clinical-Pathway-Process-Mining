@@ -1,0 +1,9 @@
+activity,event_count,total_waiting_time,average_waiting_time,waiting_contribution_percent,cumulative_contribution_percent
+Treatment,300,16682,55.61,23.15,23.15
+Diagnostic Test,350,15767,45.05,21.88,45.03
+Clinical Review,381,14107,37.03,19.57,64.6
+Initial Assessment,331,9549,28.85,13.25,77.85
+Discharge Planning,300,6907,23.02,9.58,87.43
+Discharge,300,5556,18.52,7.71,95.14
+Triage,300,3504,11.68,4.86,100.0
+Registration,300,0,0.0,0.0,100.0
