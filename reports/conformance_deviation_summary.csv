@@ -1,0 +1,2 @@
+total_patients,fitting_patients,non_fitting_patients,patients_with_missing_tokens,patients_with_remaining_tokens,total_missing_tokens,total_remaining_tokens,average_trace_fitness
+300,300,0,0,0,0,0,1.0
