@@ -1,0 +1,25 @@
+check,status
+File exists: data/processed/careflow_patient_summary_clean.csv,PASS
+File exists: data/processed/careflow_process_event_log.csv,PASS
+File exists: reports/data_quality_report.json,PASS
+File exists: reports/activity_bottleneck_summary.csv,PASS
+File exists: reports/bottleneck_validation_report.csv,PASS
+File exists: reports/patient_bottleneck_summary.csv,PASS
+File exists: reports/triage_level_bottleneck_summary.csv,PASS
+File exists: reports/case_complexity_bottleneck_summary.csv,PASS
+File exists: reports/powerbi_kpi_summary.csv,PASS
+File exists: reports/powerbi_kpi_validation.csv,PASS
+File exists: reports/waiting_time_contribution.csv,PASS
+File exists: reports/patient_conformance_report.csv,PASS
+File exists: reports/conformance_deviation_summary.csv,PASS
+File exists: reports/patient_conformance_deviations.csv,PASS
+File exists: careflow_dbt/dbt_project.yml,PASS
+File exists: careflow_dbt/models/example/patient_events_clean.sql,PASS
+Total events are 2562,PASS
+Total patients are 300,PASS
+Event IDs are unique,PASS
+No missing event IDs,PASS
+No negative waiting times,PASS
+No negative activity durations,PASS
+All Power BI KPI validations passed,PASS
+All 300 patient journeys fit the process model,PASS
