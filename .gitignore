@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Environment variables and secret keys
+.env
+.env.*
+
+# Log files
+logs/
+*.log
+
+# dbt generated files
+careflow_dbt/target/
+careflow_dbt/logs/
+careflow_dbt/dbt_packages/
+
+# Temporary system files
+.DS_Store
+Thumbs.db
